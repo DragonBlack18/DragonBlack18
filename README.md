@@ -1,74 +1,58 @@
+<!-- ========================================================= -->
+<!--                    DAVi BRAND - README                    -->
+<!-- ========================================================= -->
+
 <div align="center">
 
-# `DAVi BRAND`
+<!-- HERO BANNER -->
 
-### Software Engineer · Builder · Automation · AI · Cyber Security
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=2800&pause=800&color=00FF9C&center=true&vCenter=true&width=700&lines=Building+systems+from+idea+to+production.;Software+%7C+Automation+%7C+AI+%7C+Security;Industrial+Systems+%7C+Infrastructure+%7C+IoT;Always+learning.+Always+building." alt="Typing SVG" />
+<img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:050505,50:0a0f0d,100:00ff9c&text=DAVi%20BRAND&fontColor=ffffff&fontSize=60&fontAlignY=40&desc=SOFTWARE%20ENGINEER%20%7C%20BUILDER%20%7C%20TECH%20EXPLORER&descAlignY=62&descSize=16&animation=twinkling" width="100%"/>
 
 <br>
 
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DragonBlack18)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-100000?style=for-the-badge&logo=linkedin&logoColor=white)](#)
-[![Portfolio](https://img.shields.io/badge/Portfolio-100000?style=for-the-badge&logo=vercel&logoColor=white)](#)
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=2500&pause=700&color=00FF9C&center=true&vCenter=true&width=800&lines=Initializing+DAVi+SYSTEM...;Software+Engineer+%7C+Automation+%7C+AI;Backend+%7C+Frontend+%7C+Mobile+%7C+Infrastructure;Cyber+Security+%7C+Red+Team+%7C+IoT;Building+systems+from+idea+to+production.;Always+learning.+Always+building." />
+
+<br><br>
+
+<img src="https://komarev.com/ghpvc/?username=DragonBlack18&style=for-the-badge&color=00ff9c&label=PROFILE+VIEWS"/>
+
+<br><br>
+
+<a href="https://github.com/DragonBlack18">
+<img src="https://img.shields.io/badge/GITHUB-000000?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+
+<a href="#">
+<img src="https://img.shields.io/badge/LINKEDIN-000000?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+
+<a href="#">
+<img src="https://img.shields.io/badge/PORTFOLIO-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
+</a>
 
 </div>
 
 ---
 
-## `> whoami`
+<br>
+
+<div align="center">
 
 ```text
-┌──────────────────────────────────────────────────────────────┐
-│                         IDENTITY                             │
-├──────────────────────────────────────────────────────────────┤
-│                                                              │
-│  NAME       : DAVi BRAND                                     │
-│  ROLE       : Software Engineer                              │
-│  FOCUS      : Systems / Automation / AI / Security           │
-│  APPROACH   : Build → Test → Break → Improve → Deploy        │
-│                                                              │
-│  STATUS     : ONLINE                                         │
-│  MODE       : BUILDING                                       │
-│                                                              │
-└──────────────────────────────────────────────────────────────┘
-
-
-┌─ SOFTWARE ───────────────────────────────────────────────────┐
-│                                                              │
-│  Backend             Frontend            Mobile              │
-│  REST APIs           React               React Native        │
-│  Databases           Next.js             Applications        │
-│                                                              │
-├─ SYSTEMS ────────────────────────────────────────────────────┤
-│                                                              │
-│  Automation          Industrial Systems   IoT                │
-│  Integrations        Monitoring           Data Processing    │
-│                                                              │
-├─ INFRASTRUCTURE ─────────────────────────────────────────────┤
-│                                                              │
-│  Linux               Docker               Cloud              │
-│  VPS                 Networking           DevOps             │
-│                                                              │
-├─ SECURITY ───────────────────────────────────────────────────┤
-│                                                              │
-│  Cyber Security      Red Team             Pentesting         │
-│  Networks            Linux Security       Security Labs      │
-│                                                              │
-├─ INTELLIGENCE ───────────────────────────────────────────────┤
-│                                                              │
-│  Artificial Intelligence   AI Agents                         │
-│  Automation                 LLM Applications                 │
-│                                                              │
-└──────────────────────────────────────────────────────────────┘
-
-<p align="left"> <img src="https://skillicons.dev/icons?i=python,js,ts,java,cs,cpp,lua" /> 
-Python        ████████████████████
-JavaScript    ██████████████████
-TypeScript    █████████████████
-C#            █████████████
-C++           ███████████
-Java          ██████████
-Lua           ███████
-
-</p>
+╔══════════════════════════════════════════════════════════════╗
+║                                                              ║
+║                      SYSTEM ONLINE                           ║
+║                                                              ║
+║   NAME       : DAVi BRAND                                    ║
+║   ROLE       : SOFTWARE ENGINEER                             ║
+║   MODE       : BUILDING                                      ║
+║                                                              ║
+║   SOFTWARE   ████████████████████████████████████ 100%       ║
+║   AUTOMATION ██████████████████████████████████░░  95%       ║
+║   AI         ████████████████████████████████░░░░  90%       ║
+║   SECURITY   ██████████████████████████████░░░░░░  85%       ║
+║   INFRA      ████████████████████████████░░░░░░░░  80%       ║
+║                                                              ║
+║                  STATUS: OPERATIONAL                         ║
+║                                                              ║
+╚══════════════════════════════════════════════════════════════╝

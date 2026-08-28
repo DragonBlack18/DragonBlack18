@@ -32,3 +32,32 @@
 │  MODE       : BUILDING                                       │
 │                                                              │
 └──────────────────────────────────────────────────────────────┘
+
+
+┌─ SOFTWARE ───────────────────────────────────────────────────┐
+│                                                              │
+│  Backend             Frontend            Mobile              │
+│  REST APIs           React               React Native        │
+│  Databases           Next.js             Applications        │
+│                                                              │
+├─ SYSTEMS ────────────────────────────────────────────────────┤
+│                                                              │
+│  Automation          Industrial Systems   IoT                │
+│  Integrations        Monitoring           Data Processing    │
+│                                                              │
+├─ INFRASTRUCTURE ─────────────────────────────────────────────┤
+│                                                              │
+│  Linux               Docker               Cloud              │
+│  VPS                 Networking           DevOps             │
+│                                                              │
+├─ SECURITY ───────────────────────────────────────────────────┤
+│                                                              │
+│  Cyber Security      Red Team             Pentesting         │
+│  Networks            Linux Security       Security Labs      │
+│                                                              │
+├─ INTELLIGENCE ───────────────────────────────────────────────┤
+│                                                              │
+│  Artificial Intelligence   AI Agents                         │
+│  Automation                 LLM Applications                 │
+│                                                              │
+└──────────────────────────────────────────────────────────────┘

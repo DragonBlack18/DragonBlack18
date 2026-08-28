@@ -61,3 +61,12 @@
 │  Automation                 LLM Applications                 │
 │                                                              │
 └──────────────────────────────────────────────────────────────┘
+
+<p align="left"> <img src="https://skillicons.dev/icons?i=python,js,ts,java,cs,cpp,lua" /> </p>
+Python        ████████████████████
+JavaScript    ██████████████████
+TypeScript    █████████████████
+C#            █████████████
+C++           ███████████
+Java          ██████████
+Lua           ███████

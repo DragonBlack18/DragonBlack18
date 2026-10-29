@@ -1,6 +1,8 @@
-<!-- PROFILE README — CRIMSON TERMINAL EDITION
-     Original visual assets are versioned locally in ./assets/.
-     Animation: bespoke dark-fantasy eclipse scene, not footage from an anime.
+<!--
+  CRIMSON TERMINAL // DARK FANTASY EDITION
+  Profile README with original dark-fantasy animated artwork.
+  All animations are stored in ./assets/ and require no JavaScript or remote GIF host.
+  The artwork is not sourced from anime episodes, manga panels, or third-party GIFs.
 -->
 
 <div align="center">
@@ -13,11 +15,13 @@
 <a href="https://github.com/DragonBlack18/DeployCraft"><img src="https://img.shields.io/badge/%3E_AUTOMATION-220b10?style=for-the-badge&logo=gnubash&logoColor=ff6476&labelColor=0d080b" alt="Projetos de automação" /></a>
 <a href="https://github.com/DragonBlack18/vyrnode-releases"><img src="https://img.shields.io/badge/%3E_MONITORING-220b10?style=for-the-badge&logo=linux&logoColor=ff6476&labelColor=0d080b" alt="Projeto de monitoramento" /></a>
 
+<sub><code>CRIMSON TERMINAL // 4 ORIGINAL ANIMATED WALLPAPERS // SOFTWARE • AUTOMATION • INFRASTRUCTURE • SECURITY</code></sub>
+
 </div>
 
 <div align="center">
   <img src="./assets/crimson-eclipse.gif" width="100%" alt="Animação original de fantasia sombria: eclipse carmesim, espadachim em silhueta e brasas ao vento" />
-  <sub>THE CRIMSON ECLIPSE · ARTWORK / LOOP / BUILT FOR THIS PROFILE</sub>
+  <sub><code>[ TRANSMISSION 01 / 04 ]</code> · THE CRIMSON ECLIPSE · Original animated artwork</sub>
 </div>
 
 ## `[ 01 ] root@dragonblack18:~# whoami`
@@ -37,6 +41,12 @@ STATUS="Always building"
 Sou desenvolvedor com atuação em **suporte e operações de TI**, interessado em resolver problemas reais através de código, automação e infraestrutura.
 
 Trabalho com aplicações desktop, sistemas web, APIs e ferramentas operacionais. Gosto de soluções **locais, confiáveis, auditáveis e que possam evoluir sem perder estabilidade**. Segurança faz parte das decisões de arquitetura — não é algo para adicionar somente no final.
+
+
+<div align="center">
+  <img src="./assets/ashen-citadel.gif" width="100%" alt="Animação original de fantasia sombria: cidadela gótica, chuva carmesim, tempestade e lua vermelha" />
+  <sub><code>TRANSMISSION 02 / 04 / THE ASHEN CITADEL</code> · Rain / Ruins / Nightfall</sub>
+</div>
 
 ## `[ 02 ] systemctl --list-units | grep active`
 
@@ -91,6 +101,12 @@ monitoring.service             loaded  active     Availability, logs, telemetry
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-190a0f?style=flat-square&logo=githubactions&logoColor=ff6476)
 ![Git](https://img.shields.io/badge/Git-190a0f?style=flat-square&logo=git&logoColor=ff6476)
 
+
+<div align="center">
+  <img src="./assets/iron-vow.gif" width="100%" alt="Animação original de fantasia sombria: espada gigante fincada no solo, lua crescente e cinzas ao vento" />
+  <sub><code>TRANSMISSION 03 / 04 / THE IRON VOW</code> · Steel / Ash / Persistence</sub>
+</div>
+
 ## `[ 04 ] tree ~/projects -L 1`
 
 ```text
@@ -120,6 +136,12 @@ monitoring.service             loaded  active     Availability, logs, telemetry
 
 Meu objetivo é tornar entregas previsíveis: **mudanças incrementais, testes verificáveis, logs úteis, preservação de dados e distribuição reproduzível**.
 
+
+<div align="center">
+  <img src="./assets/crimson-gate.gif" width="100%" alt="Animação original de fantasia sombria e tecnologia: portal geométrico carmesim, ruínas e símbolos em movimento" />
+  <sub><code>TRANSMISSION 04 / 04 / THE CRIMSON GATE</code> · Signals / Systems / Resolve</sub>
+</div>
+
 ## `[ 06 ] cat /etc/security/secure-development.conf`
 
 ```ini
@@ -146,5 +168,6 @@ monitoring        = built_in
 <div align="center">
   <p><code>root@dragonblack18:~# echo "FORGE. AUTOMATE. DEFEND. REPEAT."</code></p>
   <strong>FORGE. AUTOMATE. DEFEND. REPEAT.</strong>
+  <p><sub>Dark fantasy atmosphere. Real engineering projects. Original animated artwork.</sub></p>
   <p><a href="https://github.com/DragonBlack18">github.com/DragonBlack18</a> · <code>exit 0</code></p>
 </div>

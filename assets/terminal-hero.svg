@@ -1,85 +1,69 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="584" viewBox="0 0 1280 584" role="img" aria-labelledby="title desc">
-<title id="title">Davi Brand - Engineering Terminal</title>
-<desc id="desc">Terminal inspired profile header with software, automation, infrastructure and cybersecurity focus areas.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="548" viewBox="0 0 1280 548" role="img" aria-labelledby="t d">
+<title id="t">Davi Brand / Crimson Terminal</title>
+<desc id="d">Terminal de engenharia preto e vermelho, com eclipse, status de infraestrutura, automação, software e segurança.</desc>
 <defs>
-  <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
-    <stop offset="0" stop-color="#081114"/>
-    <stop offset="0.55" stop-color="#081013"/>
-    <stop offset="1" stop-color="#0b1919"/>
-  </linearGradient>
-  <linearGradient id="stroke" x1="0" y1="0" x2="1" y2="0">
-    <stop offset="0" stop-color="#275747"/>
-    <stop offset="0.62" stop-color="#173b34"/>
-    <stop offset="1" stop-color="#367b5b"/>
-  </linearGradient>
-  <radialGradient id="halo" cx="80%" cy="28%" r="80%">
-    <stop offset="0" stop-color="#1ac68b" stop-opacity=".16"/>
-    <stop offset=".45" stop-color="#145f54" stop-opacity=".045"/>
-    <stop offset="1" stop-color="#071012" stop-opacity="0"/>
-  </radialGradient>
-  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
-    <path d="M32 0H0V32" fill="none" stroke="#2c6b5b" stroke-opacity=".14" stroke-width="1"/>
-  </pattern>
-  <clipPath id="frame"><rect x="7" y="7" width="1266" height="570" rx="19"/></clipPath>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#080809"/><stop offset=".6" stop-color="#120a0d"/><stop offset="1" stop-color="#21080d"/></linearGradient>
+  <linearGradient id="border" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#5d1722"/><stop offset=".48" stop-color="#b83b49"/><stop offset="1" stop-color="#53121c"/></linearGradient>
+  <radialGradient id="aura"><stop offset="0" stop-color="#cf293f" stop-opacity=".35"/><stop offset=".46" stop-color="#811322" stop-opacity=".20"/><stop offset="1" stop-color="#26080d" stop-opacity="0"/></radialGradient>
+  <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ff5c68"/><stop offset="1" stop-color="#76202d"/></linearGradient>
+  <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#9a273a" stroke-opacity=".13" stroke-width="1"/></pattern>
+  <clipPath id="clip"><rect x="7" y="7" width="1266" height="534" rx="18"/></clipPath>
 </defs>
-<rect x="3" y="3" width="1274" height="578" rx="23" fill="#050b0e" stroke="#1a3b34" stroke-width="3"/>
-<rect x="7" y="7" width="1266" height="570" rx="19" fill="url(#background)"/>
-<g clip-path="url(#frame)">
-  <rect x="7" y="7" width="1266" height="570" fill="url(#grid)"/>
-  <rect x="7" y="7" width="1266" height="570" fill="url(#halo)"/>
-  <path d="M7 62H1273" stroke="#24443e" stroke-width="2"/>
-  <rect x="7" y="7" width="1266" height="54" fill="#101a1d" opacity=".94"/>
-  <circle cx="37" cy="34" r="7" fill="#e96b67"/>
-  <circle cx="61" cy="34" r="7" fill="#dfb65c"/>
-  <circle cx="85" cy="34" r="7" fill="#54c998"/>
-  <text x="120" y="40" font-family="Consolas, 'Liberation Mono', monospace" font-size="16" fill="#a6c5bc">~/dragonblack18  /  profile.sh</text>
-  <rect x="1066" y="19" width="172" height="30" rx="15" fill="#14372e" stroke="#285d4b"/>
-  <circle cx="1087" cy="34" r="5" fill="#60efaf"/>
-  <text x="1102" y="39" font-family="Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="bold" fill="#b8efcf">LOCAL SESSION</text>
-  <path d="M843 89V500" stroke="#204439" stroke-width="1.5"/>
-  <circle cx="64" cy="113" r="5" fill="#56e7a7"/>
-  <text x="80" y="119" font-family="Consolas, 'Liberation Mono', monospace" font-size="16" fill="#8fc3ab">BOOT SEQUENCE</text>
-  <text x="64" y="175" font-family="Consolas, 'Liberation Mono', monospace" font-size="20" fill="#a3dfc1">
-    <tspan fill="#59efaf">$</tspan> ./initialize --profile=DragonBlack18
-  </text>
-  <text x="64" y="213" font-family="Consolas, 'Liberation Mono', monospace" font-size="16" fill="#97baa9"><tspan fill="#5ceaae">[ OK ]</tspan>  modules loaded: 04</text>
-  <text x="64" y="242" font-family="Consolas, 'Liberation Mono', monospace" font-size="16" fill="#97baa9"><tspan fill="#5ceaae">[ OK ]</tspan>  environment: engineering</text>
-  <text x="64" y="290" font-family="Consolas, 'Liberation Mono', monospace" font-size="20" fill="#a3dfc1"><tspan fill="#59efaf">$</tspan> whoami</text>
-  <text x="59" y="363" font-family="Consolas, 'Liberation Mono', monospace" font-size="71" letter-spacing="-3" font-weight="700" fill="#f0fff7">DAVI BRAND</text>
-  <rect x="64" y="389" width="634" height="2" rx="1" fill="url(#stroke)"/>
-  <text x="64" y="416" font-family="Consolas, 'Liberation Mono', monospace" font-size="17" font-weight="700" fill="#61edb0">SOFTWARE  /  AUTOMATION  /  INFRA  /  SECURITY</text>
-  <text x="64" y="459" font-family="Consolas, 'Liberation Mono', monospace" font-size="17" fill="#a7c1b6">Building reliable systems and automating the work</text>
-  <text x="64" y="483" font-family="Consolas, 'Liberation Mono', monospace" font-size="17" fill="#a7c1b6">between code, infrastructure and operations.</text>
-  <rect x="867" y="107" width="350" height="390" rx="12" fill="#091619" fill-opacity=".92" stroke="#285246" stroke-width="1.5"/>
-  <text x="893" y="144" font-family="Consolas, 'Liberation Mono', monospace" font-size="17" fill="#bcf3d9" font-weight="700">SYSTEM / FOCUS</text>
-  <text x="1180" y="143" font-family="Consolas, 'Liberation Mono', monospace" text-anchor="end" font-size="12" fill="#5e8b78">4 / 4</text>
-  <path d="M891 164H1194" stroke="#25493d" stroke-width="1"/>
-
-<text x="892" y="209" font-family="Consolas, 'Liberation Mono', monospace" font-size="14" fill="#58dfa5">01 /</text>
-<text x="942" y="209" font-family="Consolas, 'Liberation Mono', monospace" font-size="15" fill="#e8fff2" font-weight="700">AUTOMATION</text>
-<circle cx="1183" cy="204" r="5" fill="#58dfa5"/>
-<text x="942" y="232" font-family="Consolas, 'Liberation Mono', monospace" font-size="13" fill="#75998a">scripting · workflows</text>
-<path d="M892 247H1192" stroke="#234238" stroke-width="1" stroke-dasharray="3 6"/>
-<text x="892" y="277" font-family="Consolas, 'Liberation Mono', monospace" font-size="14" fill="#58dfa5">02 /</text>
-<text x="942" y="277" font-family="Consolas, 'Liberation Mono', monospace" font-size="15" fill="#e8fff2" font-weight="700">SOFTWARE</text>
-<circle cx="1183" cy="272" r="5" fill="#58dfa5"/>
-<text x="942" y="300" font-family="Consolas, 'Liberation Mono', monospace" font-size="13" fill="#75998a">desktop · APIs · web</text>
-<path d="M892 315H1192" stroke="#234238" stroke-width="1" stroke-dasharray="3 6"/>
-<text x="892" y="345" font-family="Consolas, 'Liberation Mono', monospace" font-size="14" fill="#58dfa5">03 /</text>
-<text x="942" y="345" font-family="Consolas, 'Liberation Mono', monospace" font-size="15" fill="#e8fff2" font-weight="700">INFRASTRUCTURE</text>
-<circle cx="1183" cy="340" r="5" fill="#58dfa5"/>
-<text x="942" y="368" font-family="Consolas, 'Liberation Mono', monospace" font-size="13" fill="#75998a">systems · monitoring</text>
-<path d="M892 383H1192" stroke="#234238" stroke-width="1" stroke-dasharray="3 6"/>
-<text x="892" y="413" font-family="Consolas, 'Liberation Mono', monospace" font-size="14" fill="#58dfa5">04 /</text>
-<text x="942" y="413" font-family="Consolas, 'Liberation Mono', monospace" font-size="15" fill="#e8fff2" font-weight="700">CYBERSECURITY</text>
-<circle cx="1183" cy="408" r="5" fill="#58dfa5"/>
-<text x="942" y="436" font-family="Consolas, 'Liberation Mono', monospace" font-size="13" fill="#75998a">secure engineering</text>
-<rect x="889" y="467" width="306" height="1" fill="#24483e"/>
-<path d="M7 520H1273" stroke="#24443e" stroke-width="1.5"/>
-<rect x="7" y="521" width="1266" height="56" fill="#0b171a" opacity=".94"/>
-<text x="62" y="556" font-family="Consolas, 'Liberation Mono', monospace" font-size="17" fill="#8cbaa5"><tspan fill="#67e9b0">davi@workstation</tspan>:~$ <tspan fill="#d9f4e5">build --reliable --secure</tspan></text>
-<rect x="541" y="540" width="11" height="20" rx="1" fill="#71f4b5" opacity=".95"/>
-<text x="1218" y="555" text-anchor="end" font-family="Consolas, 'Liberation Mono', monospace" font-size="13" fill="#648a7e">ENGINEERING TERMINAL // 2026</text>
+<rect x="3" y="3" width="1274" height="542" rx="23" fill="#050506" stroke="#451019" stroke-width="3"/>
+<g clip-path="url(#clip)">
+<rect x="7" y="7" width="1266" height="534" fill="url(#bg)"/>
+<rect x="7" y="7" width="1266" height="534" fill="url(#grid)"/>
+<circle cx="1080" cy="279" r="245" fill="url(#aura)"/>
+<circle cx="1080" cy="277" r="139" fill="none" stroke="#8e1b30" stroke-opacity=".25" stroke-width="2"/>
+<circle cx="1080" cy="277" r="113" fill="none" stroke="#b82e41" stroke-opacity=".25" stroke-width="3"/>
+<path d="M0 410L271 210 379 231 493 104 637 172 814 67" fill="none" stroke="#b32a40" stroke-opacity=".10" stroke-width="3"/>
+<path d="M7 61H1273" stroke="#63202b" stroke-width="2"/>
+<rect x="7" y="7" width="1266" height="54" fill="#130d10"/>
+<circle cx="37" cy="34" r="7" fill="#e45663"/><circle cx="61" cy="34" r="7" fill="#ad5b4a"/><circle cx="85" cy="34" r="7" fill="#61222c"/>
+<text x="118" y="40" font-family="Consolas, 'Liberation Mono', monospace" font-size="16" fill="#d4a9ad">crimson://dragonblack18 / engineering-terminal.sh</text>
+<rect x="1056" y="20" width="185" height="28" rx="14" fill="#2e101a" stroke="#702534"/>
+<circle cx="1075" cy="34" r="5" fill="#f34456"/>
+<text x="1091" y="39" font-family="Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="700" fill="#f8b8bd">SYSTEM ONLINE</text>
+<text x="59" y="115" font-family="Consolas, 'Liberation Mono', monospace" font-size="17" fill="#ed5367">┌── (root@dragonblack18)-[~/profile]</text>
+<text x="59" y="145" font-family="Consolas, 'Liberation Mono', monospace" font-size="18" fill="#e1babd"><tspan fill="#f55767">└─# </tspan>./boot --identity --systems --secure</text>
+<text x="59" y="193" font-family="Consolas, 'Liberation Mono', monospace" font-size="16" fill="#b8a0a2"><tspan fill="#f45b6b">[OK]</tspan> access granted / terminal initialized</text>
+<text x="59" y="222" font-family="Consolas, 'Liberation Mono', monospace" font-size="16" fill="#b8a0a2"><tspan fill="#f45b6b">[OK]</tspan> loading operator profile...</text>
+<text x="52" y="317" font-family="Consolas, 'Liberation Mono', monospace" font-size="72" letter-spacing="-2" font-weight="700" fill="#f7e9e7">DAVI BRAND</text>
+<path d="M60 342H741" stroke="url(#bar)" stroke-width="3"/>
+<text x="60" y="376" font-family="Consolas, 'Liberation Mono', monospace" font-size="19" font-weight="700" fill="#fb6574">SOFTWARE • AUTOMATION • INFRA • SECURITY</text>
+<text x="60" y="421" font-family="Consolas, 'Liberation Mono', monospace" font-size="17" fill="#bda2a7">Forging reliable systems from code to operations.</text>
+<text x="60" y="448" font-family="Consolas, 'Liberation Mono', monospace" font-size="17" fill="#bda2a7">Designed to withstand failures. Built to evolve.</text>
+<rect x="839" y="116" width="379" height="353" rx="12" fill="#0d090c" fill-opacity=".91" stroke="#65202c" stroke-width="1.5"/>
+<rect x="839" y="116" width="379" height="40" rx="12" fill="#230e15"/>
+<rect x="839" y="145" width="379" height="11" fill="#230e15"/>
+<text x="860" y="142" font-family="Consolas, 'Liberation Mono', monospace" font-size="16" font-weight="700" fill="#f2d2d3">/proc/modules</text>
+<text x="1196" y="141" text-anchor="end" font-family="Consolas, 'Liberation Mono', monospace" font-size="12" fill="#cf6674">04 ACTIVE</text>
+<path d="M859 173H1195" stroke="#49212a" stroke-width="1"/>
+<rect x="859" y="190" width="4" height="45" rx="2" fill="#f45568"/>
+<text x="878" y="207" font-family="Consolas, 'Liberation Mono', monospace" font-size="13" fill="#e65f70">01 /</text>
+<text x="926" y="207" font-family="Consolas, 'Liberation Mono', monospace" font-size="15" font-weight="700" fill="#f3dddc">AUTOMATION</text>
+<text x="926" y="230" font-family="Consolas, 'Liberation Mono', monospace" font-size="13" fill="#b17b84">scripts / CI-CD / workflows</text>
+<circle cx="1187" cy="203" r="4" fill="#e34859"/>
+<path d="M862 246H1196" stroke="#3e171f" stroke-dasharray="3 5"/><rect x="859" y="257" width="4" height="45" rx="2" fill="#85303b"/>
+<text x="878" y="274" font-family="Consolas, 'Liberation Mono', monospace" font-size="13" fill="#e65f70">02 /</text>
+<text x="926" y="274" font-family="Consolas, 'Liberation Mono', monospace" font-size="15" font-weight="700" fill="#f3dddc">DEVELOPMENT</text>
+<text x="926" y="297" font-family="Consolas, 'Liberation Mono', monospace" font-size="13" fill="#b17b84">desktop / APIs / full stack</text>
+<circle cx="1187" cy="270" r="4" fill="#e34859"/>
+<path d="M862 313H1196" stroke="#3e171f" stroke-dasharray="3 5"/><rect x="859" y="324" width="4" height="45" rx="2" fill="#85303b"/>
+<text x="878" y="341" font-family="Consolas, 'Liberation Mono', monospace" font-size="13" fill="#e65f70">03 /</text>
+<text x="926" y="341" font-family="Consolas, 'Liberation Mono', monospace" font-size="15" font-weight="700" fill="#f3dddc">INFRASTRUCTURE</text>
+<text x="926" y="364" font-family="Consolas, 'Liberation Mono', monospace" font-size="13" fill="#b17b84">systems / networks / monitoring</text>
+<circle cx="1187" cy="337" r="4" fill="#e34859"/>
+<path d="M862 380H1196" stroke="#3e171f" stroke-dasharray="3 5"/><rect x="859" y="391" width="4" height="45" rx="2" fill="#85303b"/>
+<text x="878" y="408" font-family="Consolas, 'Liberation Mono', monospace" font-size="13" fill="#e65f70">04 /</text>
+<text x="926" y="408" font-family="Consolas, 'Liberation Mono', monospace" font-size="15" font-weight="700" fill="#f3dddc">CYBERSECURITY</text>
+<text x="926" y="431" font-family="Consolas, 'Liberation Mono', monospace" font-size="13" fill="#b17b84">access control / secure design</text>
+<circle cx="1187" cy="404" r="4" fill="#e34859"/>
+<rect x="7" y="490" width="1266" height="51" fill="#0e090c"/>
+<path d="M7 490H1273" stroke="#5a202a" stroke-width="1.5"/>
+<text x="59" y="520" font-family="Consolas, 'Liberation Mono', monospace" font-size="16" fill="#d6b5b8"><tspan fill="#f55b6c">root@dragonblack18</tspan>:~# <tspan fill="#faf1ed">build --automate --monitor</tspan></text>
+<rect x="529" y="506" width="10" height="18" rx="1" fill="#ff6375"/>
+<text x="1211" y="520" text-anchor="end" font-family="Consolas, 'Liberation Mono', monospace" font-size="13" fill="#ad5663">CRIMSON PROTOCOL // v2</text>
 </g>
-<rect x="7" y="7" width="1266" height="570" rx="19" fill="none" stroke="url(#stroke)" stroke-width="1.25"/>
+<rect x="7" y="7" width="1266" height="534" rx="18" fill="none" stroke="url(#border)" stroke-width="1.5"/>
 </svg>

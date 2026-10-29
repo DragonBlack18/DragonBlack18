@@ -1,47 +1,36 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="244" viewBox="0 0 1280 244" role="img" aria-labelledby="title desc">
-<title id="title">Engineering Pipeline</title>
-<desc id="desc">Plan, build, test, harden, deploy and observe - a repeatable engineering workflow.</desc>
-<defs>
- <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#071216"/><stop offset=".5" stop-color="#0a1a1b"/><stop offset="1" stop-color="#081315"/></linearGradient>
- <linearGradient id="border" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#235949"/><stop offset=".5" stop-color="#3a8c66"/><stop offset="1" stop-color="#235949"/></linearGradient>
-</defs>
-<rect x="3" y="3" width="1274" height="238" rx="17" fill="url(#bg)" stroke="url(#border)" stroke-width="2"/>
-<path d="M4 57H1276" stroke="#20453b" stroke-width="1"/>
-<circle cx="30" cy="30" r="5.5" fill="#5be7a7"/>
-<text x="49" y="35" font-family="Consolas, 'Liberation Mono', monospace" font-size="15" fill="#a6d5bc">workflow.yaml</text>
-<text x="1228" y="35" text-anchor="end" font-family="Consolas, 'Liberation Mono', monospace" font-size="13" fill="#719f87">PIPELINE / ENGINEERING</text>
-
-<rect x="33" y="93" width="174" height="84" rx="9" fill="#102322" stroke="#295443" stroke-width="1.5"/>
-<rect x="34" y="94" width="4" height="82" rx="2" fill="#4dd99f"/>
-<text x="49" y="122" font-family="Consolas, 'Liberation Mono', monospace" font-size="14" fill="#62e8ad">01 /</text>
-<text x="49" y="154" font-family="Consolas, 'Liberation Mono', monospace" font-size="21" font-weight="700" fill="#ecfff4">PLAN</text>
-<path d="M210 135H232m-7-6 7 6-7 6" stroke="#4fbd8e" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-<rect x="239" y="93" width="174" height="84" rx="9" fill="#102322" stroke="#295443" stroke-width="1.5"/>
-<rect x="240" y="94" width="4" height="82" rx="2" fill="#4dd99f"/>
-<text x="255" y="122" font-family="Consolas, 'Liberation Mono', monospace" font-size="14" fill="#62e8ad">02 /</text>
-<text x="255" y="154" font-family="Consolas, 'Liberation Mono', monospace" font-size="21" font-weight="700" fill="#ecfff4">BUILD</text>
-<path d="M416 135H438m-7-6 7 6-7 6" stroke="#4fbd8e" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-<rect x="445" y="93" width="174" height="84" rx="9" fill="#102322" stroke="#295443" stroke-width="1.5"/>
-<rect x="446" y="94" width="4" height="82" rx="2" fill="#4dd99f"/>
-<text x="461" y="122" font-family="Consolas, 'Liberation Mono', monospace" font-size="14" fill="#62e8ad">03 /</text>
-<text x="461" y="154" font-family="Consolas, 'Liberation Mono', monospace" font-size="21" font-weight="700" fill="#ecfff4">TEST</text>
-<path d="M622 135H644m-7-6 7 6-7 6" stroke="#4fbd8e" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-<rect x="651" y="93" width="174" height="84" rx="9" fill="#102322" stroke="#295443" stroke-width="1.5"/>
-<rect x="652" y="94" width="4" height="82" rx="2" fill="#4dd99f"/>
-<text x="667" y="122" font-family="Consolas, 'Liberation Mono', monospace" font-size="14" fill="#62e8ad">04 /</text>
-<text x="667" y="154" font-family="Consolas, 'Liberation Mono', monospace" font-size="21" font-weight="700" fill="#ecfff4">HARDEN</text>
-<path d="M828 135H850m-7-6 7 6-7 6" stroke="#4fbd8e" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-<rect x="857" y="93" width="174" height="84" rx="9" fill="#102322" stroke="#295443" stroke-width="1.5"/>
-<rect x="858" y="94" width="4" height="82" rx="2" fill="#4dd99f"/>
-<text x="873" y="122" font-family="Consolas, 'Liberation Mono', monospace" font-size="14" fill="#62e8ad">05 /</text>
-<text x="873" y="154" font-family="Consolas, 'Liberation Mono', monospace" font-size="21" font-weight="700" fill="#ecfff4">DEPLOY</text>
-<path d="M1034 135H1056m-7-6 7 6-7 6" stroke="#4fbd8e" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-<rect x="1063" y="93" width="174" height="84" rx="9" fill="#102322" stroke="#295443" stroke-width="1.5"/>
-<rect x="1064" y="94" width="4" height="82" rx="2" fill="#4dd99f"/>
-<text x="1079" y="122" font-family="Consolas, 'Liberation Mono', monospace" font-size="14" fill="#62e8ad">06 /</text>
-<text x="1079" y="154" font-family="Consolas, 'Liberation Mono', monospace" font-size="21" font-weight="700" fill="#ecfff4">OBSERVE</text>
-<text x="33" y="213" font-family="Consolas, 'Liberation Mono', monospace" font-size="14" fill="#92bea9">
-$ policy --quality-gates --least-privilege --observability
-</text>
-<text x="1225" y="213" text-anchor="end" font-family="Consolas, 'Liberation Mono', monospace" font-size="12" fill="#5f967f">REPEATABLE BY DESIGN</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="238" viewBox="0 0 1280 238" role="img" aria-labelledby="t d">
+<title id="t">The Crimson Engineering Pipeline</title><desc id="d">Pipeline de desenvolvimento: plan, build, test, harden, deploy, observe.</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#0b090b"/><stop offset=".5" stop-color="#1b0b10"/><stop offset="1" stop-color="#0b090b"/></linearGradient><linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#641522"/><stop offset=".5" stop-color="#d53d51"/><stop offset="1" stop-color="#641522"/></linearGradient></defs>
+<rect x="3" y="3" width="1274" height="232" rx="17" fill="url(#bg)" stroke="url(#line)" stroke-width="2"/>
+<rect x="4" y="4" width="1272" height="52" rx="16" fill="#150c10"/>
+<path d="M4 55H1276" stroke="#5e1d2a"/>
+<circle cx="31" cy="30" r="6" fill="#ec5064"/>
+<text x="50" y="36" font-family="Consolas, 'Liberation Mono', monospace" font-size="16" fill="#e9b3ba">./engineering-pipeline.sh</text>
+<text x="1222" y="36" text-anchor="end" font-family="Consolas, 'Liberation Mono', monospace" font-size="13" fill="#bd6877">CRIMSON PIPELINE / REPEATABLE BY DESIGN</text>
+<rect x="31" y="92" width="174" height="81" rx="9" fill="#180e13" stroke="#73313d" stroke-width="1.5"/>
+<rect x="32" y="93" width="4" height="79" rx="2" fill="#ec4b60"/>
+<text x="48" y="119" font-family="Consolas, 'Liberation Mono', monospace" font-size="13" fill="#fa6475">01 /</text>
+<text x="48" y="150" font-family="Consolas, 'Liberation Mono', monospace" font-weight="700" font-size="21" fill="#f4e0df">PLAN</text>
+<path d="M209 132H229m-6-6 6 6-6 6" fill="none" stroke="#c64a5d" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><rect x="237" y="92" width="174" height="81" rx="9" fill="#180e13" stroke="#73313d" stroke-width="1.5"/>
+<rect x="238" y="93" width="4" height="79" rx="2" fill="#ec4b60"/>
+<text x="254" y="119" font-family="Consolas, 'Liberation Mono', monospace" font-size="13" fill="#fa6475">02 /</text>
+<text x="254" y="150" font-family="Consolas, 'Liberation Mono', monospace" font-weight="700" font-size="21" fill="#f4e0df">BUILD</text>
+<path d="M415 132H435m-6-6 6 6-6 6" fill="none" stroke="#c64a5d" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><rect x="443" y="92" width="174" height="81" rx="9" fill="#180e13" stroke="#73313d" stroke-width="1.5"/>
+<rect x="444" y="93" width="4" height="79" rx="2" fill="#ec4b60"/>
+<text x="460" y="119" font-family="Consolas, 'Liberation Mono', monospace" font-size="13" fill="#fa6475">03 /</text>
+<text x="460" y="150" font-family="Consolas, 'Liberation Mono', monospace" font-weight="700" font-size="21" fill="#f4e0df">TEST</text>
+<path d="M621 132H641m-6-6 6 6-6 6" fill="none" stroke="#c64a5d" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><rect x="649" y="92" width="174" height="81" rx="9" fill="#180e13" stroke="#73313d" stroke-width="1.5"/>
+<rect x="650" y="93" width="4" height="79" rx="2" fill="#ec4b60"/>
+<text x="666" y="119" font-family="Consolas, 'Liberation Mono', monospace" font-size="13" fill="#fa6475">04 /</text>
+<text x="666" y="150" font-family="Consolas, 'Liberation Mono', monospace" font-weight="700" font-size="21" fill="#f4e0df">HARDEN</text>
+<path d="M827 132H847m-6-6 6 6-6 6" fill="none" stroke="#c64a5d" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><rect x="855" y="92" width="174" height="81" rx="9" fill="#180e13" stroke="#73313d" stroke-width="1.5"/>
+<rect x="856" y="93" width="4" height="79" rx="2" fill="#ec4b60"/>
+<text x="872" y="119" font-family="Consolas, 'Liberation Mono', monospace" font-size="13" fill="#fa6475">05 /</text>
+<text x="872" y="150" font-family="Consolas, 'Liberation Mono', monospace" font-weight="700" font-size="21" fill="#f4e0df">DEPLOY</text>
+<path d="M1033 132H1053m-6-6 6 6-6 6" fill="none" stroke="#c64a5d" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><rect x="1061" y="92" width="174" height="81" rx="9" fill="#180e13" stroke="#73313d" stroke-width="1.5"/>
+<rect x="1062" y="93" width="4" height="79" rx="2" fill="#ec4b60"/>
+<text x="1078" y="119" font-family="Consolas, 'Liberation Mono', monospace" font-size="13" fill="#fa6475">06 /</text>
+<text x="1078" y="150" font-family="Consolas, 'Liberation Mono', monospace" font-weight="700" font-size="21" fill="#f4e0df">OBSERVE</text>
+<text x="34" y="207" font-family="Consolas, 'Liberation Mono', monospace" font-size="15" fill="#d2a8ab"><tspan fill="#ed5266">$ </tspan>make all &amp;&amp; make test &amp;&amp; make secure &amp;&amp; make deploy</text>
+<text x="1224" y="207" text-anchor="end" font-family="Consolas, 'Liberation Mono', monospace" font-size="12" fill="#a85667">EXIT CODE: 0</text>
 </svg>

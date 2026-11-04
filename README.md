@@ -118,8 +118,8 @@ secure-development.service       ACTIVE       Auth / RBAC / Integrity
 | **[2IAD](https://github.com/DragonBlack18/2iad)** | Plataforma de gestão de incubadora de startups, editais e parceiros. | `PUBLIC` |
 
 <div align="center">
-  <img src="./assets/iron-vow.gif" width="100%" alt="Animação original de fantasia sombria: espada monumental, lua crescente, cinzas e ruínas" />
-  <sub><code>CHAPTER DIVIDER // THE IRON VOW</code></sub>
+  <img src="./assets/templar-cathedral-watch.gif" width="100%" alt="GIF animado da arte original: cavaleiro templário diante de catedral gótica e eclipse carmesim, com movimento de câmera, capa, grama, flores, brasas e luz" />
+  <sub><code>THE CATHEDRAL WATCH</code> · CAMERA DRIFT / WIND / FLOWERS / EMBERS / ECLIPSE</sub>
 </div>
 
 ## ✠ CAPÍTULO V — `cat /etc/ordo/engineering-oath.conf`
@@ -154,10 +154,15 @@ A segurança é um campo que estudo e aplico nos meus projetos, especialmente em
 
 ## ✠ ARQUIVO DA CIDADELA — `ls ./animated-artworks/`
 
-As cenas animadas que fizeram parte das versões anteriores do perfil continuam disponíveis. Mantive as principais como divisórias e organizei as demais para que o README não fique excessivamente longo.
+As animações antigas permanecem disponíveis. A nova cena <strong>The Cathedral Watch</strong> aparece em destaque acima; as demais ficam no arquivo expansível para manter o perfil organizado.
 
 <details>
 <summary><b>✠ Abrir o arquivo de wallpapers carmesins</b></summary>
+
+<p align="center">
+  <img src="./assets/iron-vow.gif" width="100%" alt="Animação original: grande espada fincada no solo, lua crescente e cinzas ao vento" />
+  <sub>THE IRON VOW / STEEL · ASH · PERSISTENCE</sub>
+</p>
 
 <p align="center">
   <img src="./assets/ashen-citadel.gif" width="100%" alt="Cidadela gótica, tempestade e lua vermelha" />

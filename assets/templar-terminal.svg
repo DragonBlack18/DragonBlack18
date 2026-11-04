@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="378" viewBox="0 0 1280 378" role="img" aria-labelledby="title desc">
+<title id="title">Davi Brand — Templar Engineering Terminal</title>
+<desc id="desc">Banner gótico de engenharia: arquitetura de catedral em ruínas, espadas, cruz templária carmesim, interface de terminal e identidade profissional de Davi Brand.</desc>
+<defs>
+<linearGradient id="stone" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#080809"/><stop offset=".55" stop-color="#151113"/><stop offset="1" stop-color="#080709"/></linearGradient>
+<linearGradient id="orn" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#48101d"/><stop offset=".48" stop-color="#bd3347"/><stop offset="1" stop-color="#48101d"/></linearGradient>
+<radialGradient id="halo"><stop offset="0" stop-color="#a51b30" stop-opacity=".36"/><stop offset=".5" stop-color="#5e1723" stop-opacity=".10"/><stop offset="1" stop-color="#0b070a" stop-opacity="0"/></radialGradient>
+<pattern id="noise" width="17" height="17" patternUnits="userSpaceOnUse"><path d="M0 8l2-1M7 3l2 0M12 14l2-2" fill="none" stroke="#b49c9b" stroke-opacity=".08"/></pattern>
+<clipPath id="cut"><rect x="11" y="11" width="1258" height="356" rx="7"/></clipPath>
+</defs>
+<rect width="1280" height="378" rx="14" fill="#030305"/>
+<rect x="5" y="5" width="1270" height="368" rx="12" fill="url(#stone)" stroke="#4d1b26" stroke-width="2"/>
+<g clip-path="url(#cut)">
+<rect x="8" y="8" width="1264" height="362" fill="url(#noise)"/>
+<circle cx="1034" cy="179" r="215" fill="url(#halo)"/>
+<!-- ruined cathedral side architecture -->
+<g fill="none" stroke="#675459" stroke-opacity=".20" stroke-width="5">
+<path d="M0 309V32L65-30 128 32V307M15 303V52L65 5 116 52V303"/>
+<path d="M1185 306V43L1234-9 1280 46V306M1197 306V64L1233 21 1268 64V305"/>
+<path d="M50 90h30M1200 95h57M0 245h141M1141 245h139"/>
+</g>
+<g stroke="#8b3742" stroke-opacity=".24" stroke-width="2">
+<path d="M0 26H1280M0 351H1280M137 0V378M1143 0V378"/>
+<path d="M18 16H1262V362H18Z" fill="none"/>
+</g>
+<!-- heraldic bookend markings -->
+<path d="M154 36H1127M154 340H1127" stroke="#752434" stroke-width="1.4"/>
+<path d="M180 29l9 7-9 7-9-7zM1099 29l9 7-9 7-9-7z" fill="#ab3445"/>
+<text x="179" y="64" font-family="Georgia, 'Times New Roman', serif" font-size="19" fill="#d6bdba" letter-spacing="4">✠  THE CRIMSON CODEX  ✠</text>
+<text x="177" y="101" font-family="Consolas, 'Liberation Mono', monospace" font-size="16" fill="#aa8d90">&gt; systemctl status dragonblack18</text>
+<text x="177" y="132" font-family="Consolas, 'Liberation Mono', monospace" font-size="14" fill="#dc5b6b">● active (running) — engineering terminal</text>
+<text x="171" y="229" font-family="Georgia, 'Times New Roman', serif" font-weight="700" letter-spacing="4" font-size="72" fill="#eee1dc">DAVI BRAND</text>
+<path d="M176 248H774" stroke="url(#orn)" stroke-width="3"/>
+<text x="177" y="278" font-family="Consolas, 'Liberation Mono', monospace" font-size="17" letter-spacing="1" font-weight="700" fill="#ef7d87">SOFTWARE  /  AUTOMATION  /  INFRA  /  SECURITY</text>
+<text x="177" y="314" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="18" fill="#c6b0ad">Fide · Disciplina · Vigilantia</text>
+<!-- Heraldic sword and gothic shield -->
+<g transform="translate(1011,185)">
+<path d="M-67 -114L0 -124 67 -114 65 -9Q64 75 0 126Q-64 75-65-9Z" fill="#170d12" stroke="#6f2e39" stroke-width="3"/>
+<path d="M-51 -99L0 -110 51 -99 50 -7Q49 61 0 105Q-49 61-50-7Z" fill="#24141a" stroke="#ad3f50" stroke-opacity=".54" stroke-width="2"/>
+<path d="M-32 -66H32L15 -18L65 -34V34L15 18L32 66H-32L-15 18L-65 34V-34L-15 -18Z" fill="#a82b3c" stroke="#e45b6b" stroke-width="2.2"/>
+<path d="M-23 -55H23L9 -13L53 -25V25L9 13L23 55H-23L-9 13L-53 25V-25L-9 -13Z" fill="#cf4556" opacity=".65"/>
+<path d="M0 -158V-121M0 122V150M-92 0H-66M66 0H92" stroke="#7c3743" stroke-width="3"/>
+<path d="M-1 -144L-10 -129H8Z M0 143L-10 130H9Z" fill="#c0ada9"/>
+</g>
+<g fill="#b43b48">
+<circle cx="77" cy="79" r="2"/><circle cx="1145" cy="64" r="2"/><circle cx="100" cy="271" r="2"/><circle cx="1170" cy="301" r="2"/>
+</g>
+<rect x="165" y="342" width="964" height="2" fill="url(#orn)"/>
+<text x="638" y="362" text-anchor="middle" font-family="Consolas, 'Liberation Mono', monospace" font-size="12" fill="#9d6f75">KNIGHTS OF THE TERMINAL  //  BUILD · VERIFY · PROTECT · DEPLOY</text>
+</g>
+</svg>

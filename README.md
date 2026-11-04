@@ -1,173 +1,184 @@
 <!--
-  CRIMSON TERMINAL // DARK FANTASY EDITION
-  Profile README with original dark-fantasy animated artwork.
-  All animations are stored in ./assets/ and require no JavaScript or remote GIF host.
-  The artwork is not sourced from anime episodes, manga panels, or third-party GIFs.
+  DRAGONBLACK18 / TEMPLAR TERMINAL
+  Identidade visual: fantasia gótica, pedra, aço e vermelho carmesim.
+  README compatível com GitHub: HTML permitido, SVG e WebP locais; sem scripts.
+  A arte de capa foi fornecida pelo proprietário do perfil.
 -->
 
 <div align="center">
 
-<img src="./assets/terminal-hero.svg" width="100%" alt="Davi Brand - Crimson Terminal: programação, automação, infraestrutura e segurança" />
+<img src="./assets/templar-terminal.svg" width="100%" alt="Davi Brand — terminal de engenharia com cruz heráldica carmesim, ornamentos góticos e inscrições medievais" />
 
-<br />
+<img src="./assets/templar-cathedral-cover.webp" width="100%" alt="Arte de fantasia sombria enviada pelo autor: figura coroada de espinhos em um trono, ruínas de catedral gótica, bandeiras com cruzes, tempestade e brasas vermelhas" />
 
-<a href="https://github.com/DragonBlack18?tab=repositories"><img src="https://img.shields.io/badge/%3E_VIEW_PROJECTS-220b10?style=for-the-badge&logo=github&logoColor=ff6476&labelColor=0d080b" alt="Ver projetos" /></a>
-<a href="https://github.com/DragonBlack18/DeployCraft"><img src="https://img.shields.io/badge/%3E_AUTOMATION-220b10?style=for-the-badge&logo=gnubash&logoColor=ff6476&labelColor=0d080b" alt="Projetos de automação" /></a>
-<a href="https://github.com/DragonBlack18/vyrnode-releases"><img src="https://img.shields.io/badge/%3E_MONITORING-220b10?style=for-the-badge&logo=linux&logoColor=ff6476&labelColor=0d080b" alt="Projeto de monitoramento" /></a>
+<sub><code>✠  THE CRIMSON CODEX  ✠</code> · FIDE · DISCIPLINA · VIGILANTIA</sub>
 
-<sub><code>CRIMSON TERMINAL // 4 ORIGINAL ANIMATED WALLPAPERS // SOFTWARE • AUTOMATION • INFRASTRUCTURE • SECURITY</code></sub>
+<p>
+  <a href="https://github.com/DragonBlack18?tab=repositories"><img src="https://img.shields.io/badge/%E2%9C%A0_REPOSITORIES-200d13?style=for-the-badge&logo=github&logoColor=cf5060&labelColor=0d090c" alt="Ver meus repositórios" /></a>
+  <a href="https://github.com/DragonBlack18/DeployCraft"><img src="https://img.shields.io/badge/%E2%9C%A0_AUTOMATION-200d13?style=for-the-badge&logo=gnubash&logoColor=cf5060&labelColor=0d090c" alt="Explorar automações" /></a>
+  <a href="https://github.com/DragonBlack18/vyrnode-releases"><img src="https://img.shields.io/badge/%E2%9C%A0_MONITORING-200d13?style=for-the-badge&logo=linux&logoColor=cf5060&labelColor=0d090c" alt="Conhecer meu monitoramento" /></a>
+</p>
 
 </div>
 
-<div align="center">
-  <img src="./assets/crimson-eclipse.gif" width="100%" alt="Animação original de fantasia sombria: eclipse carmesim, espadachim em silhueta e brasas ao vento" />
-  <sub><code>[ TRANSMISSION 01 / 04 ]</code> · THE CRIMSON ECLIPSE · Original animated artwork</sub>
-</div>
+<img src="./assets/templar-divider.svg" width="100%" alt="Divisória heráldica com cruz carmesim" />
 
-## `[ 01 ] root@dragonblack18:~# whoami`
+## ✠ CAPÍTULO I — `whoami`
 
 ```console
-┌── (root@dragonblack18)-[~/profile]
-└─# cat identity.env
+┌── (davi@citadel)-[~/identity]
+└─$ cat identity.conf
 
-NAME="Davi Brand"
-HANDLE="@DragonBlack18"
-FIELD="Software Development + IT Operations"
-FOCUS="Automation | Infrastructure | Cybersecurity"
-PHILOSOPHY="Build it. Test it. Secure it. Keep it running."
-STATUS="Always building"
+NAME           = Davi Brand
+HANDLE         = DragonBlack18
+DISCIPLINE     = Software Development & IT Operations
+SPECIALTIES    = Automation | Infrastructure | Secure Engineering
+ENVIRONMENT    = Windows / Linux
+DIRECTIVE      = Build. Validate. Protect. Evolve.
 ```
 
-Sou desenvolvedor com atuação em **suporte e operações de TI**, interessado em resolver problemas reais através de código, automação e infraestrutura.
+Sou desenvolvedor com atuação em **suporte e operações de TI**, focado em transformar desafios reais em soluções de software, automação e infraestrutura.
 
-Trabalho com aplicações desktop, sistemas web, APIs e ferramentas operacionais. Gosto de soluções **locais, confiáveis, auditáveis e que possam evoluir sem perder estabilidade**. Segurança faz parte das decisões de arquitetura — não é algo para adicionar somente no final.
+Meu trabalho conecta **código, aplicações desktop, APIs, serviços, bancos de dados e monitoramento**. Priorizo projetos bem estruturados, funcionais, com proteção de dados, validações concretas e capacidade de evolução.
 
+> **Fide · Disciplina · Vigilantia** — uma identidade visual de inspiração medieval, com princípios modernos de engenharia: disciplina técnica, confiabilidade e atenção à segurança.
 
-<div align="center">
-  <img src="./assets/ashen-citadel.gif" width="100%" alt="Animação original de fantasia sombria: cidadela gótica, chuva carmesim, tempestade e lua vermelha" />
-  <sub><code>TRANSMISSION 02 / 04 / THE ASHEN CITADEL</code> · Rain / Ruins / Nightfall</sub>
-</div>
-
-## `[ 02 ] systemctl --list-units | grep active`
+## ✠ CAPÍTULO II — `systemctl list-units --type=service`
 
 ```text
-UNIT                           LOAD    ACTIVE     DESCRIPTION
-automation.service             loaded  active     Scripts, workflows, CI/CD
-software-engineering.service   loaded  active     Desktop, APIs, web systems
-infrastructure.service         loaded  active     Windows, Linux, networking
-secure-development.service     loaded  active     Auth, RBAC, integrity
-monitoring.service             loaded  active     Availability, logs, telemetry
+UNIT                             STATE        DOMAIN
+software-engineering.service     ACTIVE       Desktop / APIs / Web / Data
+automation.service               ACTIVE       Python / PowerShell / CI/CD
+infrastructure.service           ACTIVE       Windows / Linux / Networks
+monitoring.service               ACTIVE       ICMP / Services / Logs
+secure-development.service       ACTIVE       Auth / RBAC / Integrity
 
-5 loaded units listed.
+5 engineering modules loaded.
 ```
 
-<details>
-<summary><b>cat /etc/engineering/modules.conf</b> · mais sobre minhas áreas</summary>
-
-| Módulo | Áreas de atuação e estudo |
-| :-- | :-- |
-| **SOFTWARE_ENGINEERING** | Backend, aplicações desktop, APIs, interfaces e persistência de dados. |
-| **AUTOMATION** | PowerShell, Python, workflows, pipelines e execução reproduzível. |
-| **INFRASTRUCTURE** | Serviços Windows/Linux, Docker, redes, implantação e monitoramento. |
-| **SECURE_DEVELOPMENT** | Autenticação, autorização, proteção de segredos, menor privilégio e integridade. |
-
-</details>
-
-## `[ 03 ] ls /opt/toolchain`
-
-**`/languages-and-scripting`**
-
-![Python](https://img.shields.io/badge/Python-190a0f?style=flat-square&logo=python&logoColor=ff6476)
-![Go](https://img.shields.io/badge/Go-190a0f?style=flat-square&logo=go&logoColor=ff6476)
-![TypeScript](https://img.shields.io/badge/TypeScript-190a0f?style=flat-square&logo=typescript&logoColor=ff6476)
-![JavaScript](https://img.shields.io/badge/JavaScript-190a0f?style=flat-square&logo=javascript&logoColor=ff6476)
-![PowerShell](https://img.shields.io/badge/PowerShell-190a0f?style=flat-square&logo=powershell&logoColor=ff6476)
-![SQL](https://img.shields.io/badge/SQL-190a0f?style=flat-square&logo=postgresql&logoColor=ff6476)
-
-**`/application-and-database`**
-
-![React](https://img.shields.io/badge/React-190a0f?style=flat-square&logo=react&logoColor=ff6476)
-![Electron](https://img.shields.io/badge/Electron-190a0f?style=flat-square&logo=electron&logoColor=ff6476)
-![FastAPI](https://img.shields.io/badge/FastAPI-190a0f?style=flat-square&logo=fastapi&logoColor=ff6476)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-190a0f?style=flat-square&logo=postgresql&logoColor=ff6476)
-![SQLite](https://img.shields.io/badge/SQLite-190a0f?style=flat-square&logo=sqlite&logoColor=ff6476)
-
-**`/infrastructure-and-delivery`**
-
-![Linux](https://img.shields.io/badge/Linux-190a0f?style=flat-square&logo=linux&logoColor=ff6476)
-![Windows](https://img.shields.io/badge/Windows-190a0f?style=flat-square&logo=windows&logoColor=ff6476)
-![Docker](https://img.shields.io/badge/Docker-190a0f?style=flat-square&logo=docker&logoColor=ff6476)
-![Nginx](https://img.shields.io/badge/Nginx-190a0f?style=flat-square&logo=nginx&logoColor=ff6476)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-190a0f?style=flat-square&logo=githubactions&logoColor=ff6476)
-![Git](https://img.shields.io/badge/Git-190a0f?style=flat-square&logo=git&logoColor=ff6476)
-
+| Pilar | Aplicação prática |
+| :--- | :--- |
+| **I · Desenvolvimento de software** | Aplicações desktop e web, integrações, APIs, persistência e arquitetura modular. |
+| **II · Automação** | Scripts, workflows, ferramentas de operação e pipelines de build e entrega. |
+| **III · Infraestrutura** | Sistemas Windows/Linux, redes, Docker, serviços e ambientes de implantação. |
+| **IV · Segurança** | Autenticação, permissões, menor privilégio, validação e proteção de credenciais. |
 
 <div align="center">
-  <img src="./assets/iron-vow.gif" width="100%" alt="Animação original de fantasia sombria: espada gigante fincada no solo, lua crescente e cinzas ao vento" />
-  <sub><code>TRANSMISSION 03 / 04 / THE IRON VOW</code> · Steel / Ash / Persistence</sub>
+  <img src="./assets/crimson-eclipse.gif" width="100%" alt="Animação original: eclipse vermelho, guerreiro e brasas sobre paisagem sombria" />
+  <sub><code>CHAPTER DIVIDER // THE CRIMSON ECLIPSE</code></sub>
 </div>
 
-## `[ 04 ] tree ~/projects -L 1`
+## ✠ CAPÍTULO III — `ls -la /opt/armory`
+
+**`01 / LANGUAGES & AUTOMATION`**
+
+![Python](https://img.shields.io/badge/Python-160b10?style=flat-square&logo=python&logoColor=cf5060)
+![Go](https://img.shields.io/badge/Go-160b10?style=flat-square&logo=go&logoColor=cf5060)
+![TypeScript](https://img.shields.io/badge/TypeScript-160b10?style=flat-square&logo=typescript&logoColor=cf5060)
+![JavaScript](https://img.shields.io/badge/JavaScript-160b10?style=flat-square&logo=javascript&logoColor=cf5060)
+![PowerShell](https://img.shields.io/badge/PowerShell-160b10?style=flat-square&logo=powershell&logoColor=cf5060)
+![SQL](https://img.shields.io/badge/SQL-160b10?style=flat-square&logo=postgresql&logoColor=cf5060)
+
+**`02 / APPLICATIONS & DATA`**
+
+![React](https://img.shields.io/badge/React-160b10?style=flat-square&logo=react&logoColor=cf5060)
+![Electron](https://img.shields.io/badge/Electron-160b10?style=flat-square&logo=electron&logoColor=cf5060)
+![FastAPI](https://img.shields.io/badge/FastAPI-160b10?style=flat-square&logo=fastapi&logoColor=cf5060)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-160b10?style=flat-square&logo=postgresql&logoColor=cf5060)
+![SQLite](https://img.shields.io/badge/SQLite-160b10?style=flat-square&logo=sqlite&logoColor=cf5060)
+
+**`03 / SYSTEMS & DELIVERY`**
+
+![Linux](https://img.shields.io/badge/Linux-160b10?style=flat-square&logo=linux&logoColor=cf5060)
+![Windows](https://img.shields.io/badge/Windows-160b10?style=flat-square&logo=windows&logoColor=cf5060)
+![Docker](https://img.shields.io/badge/Docker-160b10?style=flat-square&logo=docker&logoColor=cf5060)
+![Nginx](https://img.shields.io/badge/Nginx-160b10?style=flat-square&logo=nginx&logoColor=cf5060)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-160b10?style=flat-square&logo=githubactions&logoColor=cf5060)
+![Git](https://img.shields.io/badge/Git-160b10?style=flat-square&logo=git&logoColor=cf5060)
+
+## ✠ CAPÍTULO IV — `tree ~/projects -L 1`
 
 ```text
 /home/davi/projects/
-├── DeployCraft          # offline deployment engine
-├── OmniForge-Studio     # visual automation & development
-├── VYRNODE              # infrastructure monitoring
-├── sistema-de-academia  # business management software
-├── Atlas-IA             # local desktop assistant
-└── 2iad                 # startup incubation platform
+├── DeployCraft/           # deployments offline
+├── OmniForge-Studio/      # visual engineering workspace
+├── VYRNODE/               # network monitoring
+├── sistema-de-academia/   # gestão com acesso controlado
+├── Atlas-IA/              # assistente local de desktop
+└── 2iad/                  # plataforma para incubadora
 ```
 
-| `REPOSITORY` | `DESCRIPTION` | `ACCESS` |
-| :-- | :-- | :-- |
-| **[DeployCraft](https://github.com/DragonBlack18/DeployCraft)** | Motor de implantação **offline** para Windows. Go, catálogos JSON, integridade e CI. **Em validação de laboratório.** | `PUBLIC` |
-| **[OmniForge Studio](https://github.com/DragonBlack18/OmniForge-Studio)** | Plataforma desktop **experimental** de workflows, edição de código e integração de projetos. | `PUBLIC` |
-| **[VYRNODE](https://github.com/DragonBlack18/vyrnode-releases)** | Monitoramento ICMP com controle e visualização. Link para releases; o código-fonte é privado. | `RELEASES` |
-| **[Vitality Gym](https://github.com/DragonBlack18/sistema-de-academia)** | Sistema de gestão com autenticação, permissões e módulos operacionais. | `PUBLIC` |
-| **[Atlas AI](https://github.com/DragonBlack18/Atlas-IA)** | Assistente local de desktop para Windows, com comandos de voz e automação. | `PUBLIC` |
-| **[2IAD](https://github.com/DragonBlack18/2iad)** | Plataforma de gestão para uma incubadora de startups. | `PUBLIC` |
-
-## `[ 05 ] ./engineering-pipeline.sh --strict`
+| Projeto | Engenharia aplicada | Acesso |
+| :--- | :--- | :--- |
+| **[DeployCraft](https://github.com/DragonBlack18/DeployCraft)** | Motor de implantação **offline** para Windows com Go, catálogo JSON, validação de integridade e CI. **Em laboratório.** | `PUBLIC` |
+| **[OmniForge Studio](https://github.com/DragonBlack18/OmniForge-Studio)** | Workspace desktop **experimental** com automação visual, edição de código e ferramentas de engenharia. | `PUBLIC` |
+| **[VYRNODE](https://github.com/DragonBlack18/vyrnode-releases)** | Monitoramento ICMP e disponibilidade de rede, com telas Control e Viewer. Repositório público de **releases**; código-fonte privado. | `RELEASES` |
+| **[Vitality Gym](https://github.com/DragonBlack18/sistema-de-academia)** | Gestão de academia com autenticação, permissões e módulos de negócio. | `PUBLIC` |
+| **[Atlas AI](https://github.com/DragonBlack18/Atlas-IA)** | Assistente local para Windows, com comandos de voz, automação e integração com IA. | `PUBLIC` |
+| **[2IAD](https://github.com/DragonBlack18/2iad)** | Plataforma de gestão de incubadora de startups, editais e parceiros. | `PUBLIC` |
 
 <div align="center">
-  <img src="./assets/system-pipeline.svg" width="100%" alt="Pipeline de engenharia: plan, build, test, harden, deploy e observe" />
+  <img src="./assets/iron-vow.gif" width="100%" alt="Animação original de fantasia sombria: espada monumental, lua crescente, cinzas e ruínas" />
+  <sub><code>CHAPTER DIVIDER // THE IRON VOW</code></sub>
 </div>
 
-Meu objetivo é tornar entregas previsíveis: **mudanças incrementais, testes verificáveis, logs úteis, preservação de dados e distribuição reproduzível**.
-
-
-<div align="center">
-  <img src="./assets/crimson-gate.gif" width="100%" alt="Animação original de fantasia sombria e tecnologia: portal geométrico carmesim, ruínas e símbolos em movimento" />
-  <sub><code>TRANSMISSION 04 / 04 / THE CRIMSON GATE</code> · Signals / Systems / Resolve</sub>
-</div>
-
-## `[ 06 ] cat /etc/security/secure-development.conf`
+## ✠ CAPÍTULO V — `cat /etc/ordo/engineering-oath.conf`
 
 ```ini
+[design]
+architecture      = modular
+complexity        = intentional
+interfaces        = usable
+
 [security]
 authentication    = enforce_where_required
-authorization     = server_side_checks
+authorization     = validate_on_server
 privileges        = least_privilege
 secrets           = never_commit
-input_validation  = required
 integrity         = verify_artifacts
 
 [operations]
-changes           = incremental
-testing           = reproducible
+automation        = reproducible
+changes           = incremental_and_tested
 logs              = actionable
-data              = preserve_on_update
 monitoring        = built_in
+user_data         = preserve_across_updates
+
+[release]
+tests             = required
+evidence          = recorded
+regressions       = investigated
 ```
 
-*Cybersecurity é uma área de estudo e aplicação prática nos meus projetos, especialmente em desenvolvimento seguro e proteção de sistemas.*
+A segurança é um campo que estudo e aplico nos meus projetos, especialmente em **desenvolvimento seguro, controle de acesso e proteção de sistemas**. Essas linhas representam princípios de trabalho — não uma certificação ou garantia de que todos os projetos já estejam homologados para produção.
 
----
+## ✠ ARQUIVO DA CIDADELA — `ls ./animated-artworks/`
+
+As cenas animadas que fizeram parte das versões anteriores do perfil continuam disponíveis. Mantive as principais como divisórias e organizei as demais para que o README não fique excessivamente longo.
+
+<details>
+<summary><b>✠ Abrir o arquivo de wallpapers carmesins</b></summary>
+
+<p align="center">
+  <img src="./assets/ashen-citadel.gif" width="100%" alt="Cidadela gótica, tempestade e lua vermelha" />
+  <sub>THE ASHEN CITADEL / RAIN · RUINS · NIGHTFALL</sub>
+</p>
+
+<p align="center">
+  <img src="./assets/crimson-gate.gif" width="100%" alt="Portal geométrico carmesim cercado por ruínas" />
+  <sub>THE CRIMSON GATE / SYSTEMS · SIGNALS · RESOLVE</sub>
+</p>
+
+</details>
+
+<img src="./assets/templar-divider.svg" width="100%" alt="Divisória heráldica templária" />
 
 <div align="center">
-  <p><code>root@dragonblack18:~# echo "FORGE. AUTOMATE. DEFEND. REPEAT."</code></p>
-  <strong>FORGE. AUTOMATE. DEFEND. REPEAT.</strong>
-  <p><sub>Dark fantasy atmosphere. Real engineering projects. Original animated artwork.</sub></p>
-  <p><a href="https://github.com/DragonBlack18">github.com/DragonBlack18</a> · <code>exit 0</code></p>
+
+<code>davi@citadel:~$ ./forge --build --validate --protect</code>
+
+**✠ FORGE. AUTOMATE. DEFEND. REPEAT. ✠**
+
+<sub>Entre pedra, aço e código. · GitHub: <a href="https://github.com/DragonBlack18">@DragonBlack18</a></sub>
+
 </div>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="234" viewBox="0 0 1200 234" role="img" aria-labelledby="t d">
+<title id="t">OMNIFORGE STUDIO — Project Folio 02</title><desc id="d">Portfólio heráldico de OMNIFORGE STUDIO: VISUAL ENGINEERING. AUTOMATION / CODE / DESKTOP. Classificação editorial: EXPERIMENTAL.</desc>
+<defs><linearGradient id="bg02" x2="1" y2="1"><stop stop-color="#08080C"/><stop offset=".5" stop-color="#1B0C14"/><stop offset="1" stop-color="#0B080D"/></linearGradient><linearGradient id="line02"><stop stop-color="#452330"/><stop offset=".5" stop-color="#C99D7F"/><stop offset="1" stop-color="#452330"/></linearGradient><pattern id="etch02" width="19" height="24" patternUnits="userSpaceOnUse"><path d="M0 19l5-3M9 4l3-1" stroke="#E2B9B1" stroke-opacity=".055"/></pattern></defs>
+<rect x="3" y="3" width="1194" height="228" rx="12" fill="url(#bg02)" stroke="#713445" stroke-width="2.2"/>
+<rect x="13" y="13" width="1174" height="208" rx="6" fill="url(#etch02)" stroke="#74404D" stroke-opacity=".52"/>
+<path d="M30 30H1170M30 204H1170" stroke="url(#line02)" stroke-width="1.5"/>
+<path d="M30 31l18 9-18 9M1170 31l-18 9 18 9M30 204l18-9-18-9M1170 204l-18-9 18-9" fill="none" stroke="#C9A482" stroke-width="1.3" stroke-opacity=".7"/>
+<path d="M36 194V76Q36 37 137 31Q237 37 237 76V194Z" fill="#1A0D14" stroke="#975463" stroke-width="2"/>
+<path d="M51 181V86Q51 56 137 48Q222 56 222 86V181Z" fill="#100A10" stroke="#C9A482" stroke-opacity=".46"/>
+<circle cx="137" cy="115" r="68" fill="#25101D" stroke="#663847" stroke-width="2"/>
+<g transform="translate(137 114)"><path d="M-40-20H14V-6H-40Z M14-31L42-10L32 3L3-18Z" fill="#C9A482" stroke="#F1DDD0" stroke-width="2"/><path d="M1-2L-19 24M-38 35H36M-24 21H24L12 35H-15Z" fill="none" stroke="#F1DDD0" stroke-width="5"/></g>
+<text x="137" y="194" text-anchor="middle" font-family="Consolas, 'Liberation Mono', monospace" font-size="19" fill="#C9A482">FOLIO 02</text>
+<path d="M253 41V194" stroke="#9E5062" stroke-width="2"/>
+<text x="291" y="69" font-family="Consolas, 'Liberation Mono', monospace" font-size="24" letter-spacing="1.1" fill="#D66D7A">VISUAL ENGINEERING</text>
+<text x="282" y="147" font-family="Georgia, 'Times New Roman', serif" font-size="62" font-weight="700" letter-spacing="1" fill="#F1DDD0">OMNIFORGE STUDIO</text>
+<path d="M288 156H840.5200000000001" stroke="#D66D7A" stroke-width="2.5"/>
+<text x="289" y="187" font-family="Consolas, 'Liberation Mono', monospace" font-size="23.5" fill="#D8AEA7">AUTOMATION / CODE / DESKTOP</text>
+<path d="M1010 44H1161V66H1010Z" fill="#1F0D15" stroke="#C9A482" stroke-width="1"/>
+<text x="1086" y="59" text-anchor="middle" font-family="Consolas, 'Liberation Mono', monospace" font-size="15.5" fill="#C9A482">ORDO / V3</text>
+<text x="1080" y="186" text-anchor="middle" font-family="Consolas, 'Liberation Mono', monospace" font-size="17.5" fill="#D4A7A5">GITHUB LINK</text>
+<path d="M1151 176l13 10-13 10" stroke="#D66D7A" stroke-width="3" fill="none"/>
+</svg>

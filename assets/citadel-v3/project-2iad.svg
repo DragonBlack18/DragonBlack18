@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="234" viewBox="0 0 1200 234" role="img" aria-labelledby="t d">
+<title id="t">2IAD — Project Folio 06</title><desc id="d">Portfólio heráldico de 2IAD: STARTUP INCUBATION. PLATFORM / NOTICES / PARTNERS. Classificação editorial: PUBLIC REPOSITORY.</desc>
+<defs><linearGradient id="bg06" x2="1" y2="1"><stop stop-color="#08080C"/><stop offset=".5" stop-color="#1B0C14"/><stop offset="1" stop-color="#0B080D"/></linearGradient><linearGradient id="line06"><stop stop-color="#452330"/><stop offset=".5" stop-color="#C99D7F"/><stop offset="1" stop-color="#452330"/></linearGradient><pattern id="etch06" width="19" height="24" patternUnits="userSpaceOnUse"><path d="M0 19l5-3M9 4l3-1" stroke="#E2B9B1" stroke-opacity=".055"/></pattern></defs>
+<rect x="3" y="3" width="1194" height="228" rx="12" fill="url(#bg06)" stroke="#713445" stroke-width="2.2"/>
+<rect x="13" y="13" width="1174" height="208" rx="6" fill="url(#etch06)" stroke="#74404D" stroke-opacity=".52"/>
+<path d="M30 30H1170M30 204H1170" stroke="url(#line06)" stroke-width="1.5"/>
+<path d="M30 31l18 9-18 9M1170 31l-18 9 18 9M30 204l18-9-18-9M1170 204l-18-9 18-9" fill="none" stroke="#C9A482" stroke-width="1.3" stroke-opacity=".7"/>
+<path d="M36 194V76Q36 37 137 31Q237 37 237 76V194Z" fill="#1A0D14" stroke="#975463" stroke-width="2"/>
+<path d="M51 181V86Q51 56 137 48Q222 56 222 86V181Z" fill="#100A10" stroke="#C9A482" stroke-opacity=".46"/>
+<circle cx="137" cy="115" r="68" fill="#25101D" stroke="#663847" stroke-width="2"/>
+<g transform="translate(137 114)"><path d="M-33 44V-25L0-49L33-25V44M-43 44H43 M-24-25L0-42L24-25" fill="none" stroke="#F1DDD0" stroke-width="3.5"/><path d="M-21 44V-5H21V44M-8 44V19H8V44" fill="#4B2430" stroke="#C9A482" stroke-width="2.5"/><path d="M-46-25H46M0-49V-59" stroke="#C9A482" stroke-width="3"/></g>
+<text x="137" y="194" text-anchor="middle" font-family="Consolas, 'Liberation Mono', monospace" font-size="19" fill="#C9A482">FOLIO 06</text>
+<path d="M253 41V194" stroke="#9E5062" stroke-width="2"/>
+<text x="291" y="69" font-family="Consolas, 'Liberation Mono', monospace" font-size="24" letter-spacing="1.1" fill="#D49D7D">STARTUP INCUBATION</text>
+<text x="282" y="147" font-family="Georgia, 'Times New Roman', serif" font-size="78" font-weight="700" letter-spacing="1" fill="#F1DDD0">2IAD</text>
+<path d="M288 156H459.72" stroke="#D49D7D" stroke-width="2.5"/>
+<text x="289" y="187" font-family="Consolas, 'Liberation Mono', monospace" font-size="23.5" fill="#D8AEA7">PLATFORM / NOTICES / PARTNERS</text>
+<path d="M1010 44H1161V66H1010Z" fill="#1F0D15" stroke="#C9A482" stroke-width="1"/>
+<text x="1086" y="59" text-anchor="middle" font-family="Consolas, 'Liberation Mono', monospace" font-size="15.5" fill="#C9A482">ORDO / V3</text>
+<text x="1080" y="186" text-anchor="middle" font-family="Consolas, 'Liberation Mono', monospace" font-size="17.5" fill="#D4A7A5">GITHUB LINK</text>
+<path d="M1151 176l13 10-13 10" stroke="#D49D7D" stroke-width="3" fill="none"/>
+</svg>

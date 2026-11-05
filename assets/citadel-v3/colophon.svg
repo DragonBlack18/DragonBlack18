@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="142" viewBox="0 0 1200 142" role="img" aria-labelledby="t d">
+<title id="t">The Citadel Signet — V3 Masterpiece Refinement</title>
+<desc id="d">Colofão medieval carmesim emoldurando um escudo, a identidade The Crimson Codex e os lemas de disciplina.</desc>
+<defs><linearGradient id="bgfoot" x2="1" y2="1"><stop stop-color="#08080C"/><stop offset=".5" stop-color="#1B0C14"/><stop offset="1" stop-color="#0B080D"/></linearGradient><linearGradient id="linefoot"><stop stop-color="#452330"/><stop offset=".5" stop-color="#C99D7F"/><stop offset="1" stop-color="#452330"/></linearGradient><pattern id="etchfoot" width="19" height="24" patternUnits="userSpaceOnUse"><path d="M0 19l5-3M9 4l3-1" stroke="#E2B9B1" stroke-opacity=".055"/></pattern></defs>
+<rect x="3" y="3" width="1194" height="136" rx="12" fill="url(#bgfoot)" stroke="#6D3444" stroke-width="2"/>
+<rect x="14" y="14" width="1172" height="114" rx="4" fill="none" stroke="#6D3444"/>
+<path d="M42 72H482M718 72H1158" stroke="url(#linefoot)" stroke-width="1.8"/>
+<path d="M464 65l13 7-13 7M736 65l-13 7 13 7" fill="none" stroke="#C9A482" stroke-width="2"/>
+<path d="M600 13L647 31V74Q643 106 600 126Q557 106 553 74V31Z" fill="#1C1018" stroke="#C9A482" stroke-width="2.5"/>
+<path d="M585 47H615L607 60L628 55V79L607 73L615 94H585L593 73L572 79V55L593 60Z" fill="#CB485B" stroke="#F1DDD0" stroke-width="1.2"/>
+<text x="294" y="54" text-anchor="middle" font-family="Consolas, 'Liberation Mono', monospace" font-size="19" fill="#C9A482">THE CRIMSON CODEX</text>
+<text x="906" y="54" text-anchor="middle" font-family="Consolas, 'Liberation Mono', monospace" font-size="19" fill="#C9A482">CITADEL EDITION V3</text>
+<text x="294" y="109" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="23" font-style="italic" fill="#F1DDD0">Fide · Disciplina</text>
+<text x="906" y="109" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="23" font-style="italic" fill="#F1DDD0">Vigilantia · Perseverantia</text>
+</svg>

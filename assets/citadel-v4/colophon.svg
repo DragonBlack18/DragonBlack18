@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="128" viewBox="0 0 1000 128" role="img" aria-labelledby="title desc">
+<title id="title">The Final Codex · Heraldic signet</title><desc id="desc">Selo final templário em aço carmesim e marfim, ladeado por filigranas.</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#08070A"/><stop offset=".5" stop-color="#1D0B14"/><stop offset="1" stop-color="#08070A"/></linearGradient><linearGradient id="metal"><stop stop-color="#4E2835"/><stop offset=".5" stop-color="#D2A380"/><stop offset="1" stop-color="#4E2835"/></linearGradient></defs>
+<rect x="3" y="3" width="994" height="122" rx="10" fill="url(#bg)" stroke="#67303D" stroke-width="2"/><rect x="12" y="12" width="976" height="104" rx="3" fill="none" stroke="#6A3742"/>
+<path d="M28 64H434M566 64H972" stroke="url(#metal)" stroke-width="2"/><path d="M411 55l23 9-23 9M589 55l-23 9 23 9" fill="none" stroke="#B8797C" stroke-width="1.8"/>
+<path d="M500 7L548 29V65Q542 98 500 120Q458 98 452 65V29Z" fill="#190C13" stroke="#B58772" stroke-width="2.8"/><path d="M484 37H516L508 52L530 46V71L508 65L516 90H484L492 65L470 71V46L492 52Z" fill="#BE3B52" stroke="#EAD1BF" stroke-width="1.2"/>
+<path d="M42 40L64 64L42 88M958 40L936 64L958 88" stroke="#9D5060" stroke-width="2" fill="none"/>
+</svg>

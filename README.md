@@ -2,7 +2,7 @@
   DRAGONBLACK18 / TEMPLAR TERMINAL
   Identidade visual: fantasia gótica, pedra, aço e vermelho carmesim.
   README compatível com GitHub: Markdown/HTML permitido, SVG estático, WebP e GIF locais; sem scripts.
-  2026 / CITADEL EDITION V3: refinamento visual, legibilidade mobile e preservação do arquivo original.
+  2026 / CITADEL EDITION V4: composição editorial compacta, patrimônio visual preservado e validação responsiva.
   A arte de capa foi fornecida pelo proprietário do perfil.
 -->
 
@@ -47,7 +47,7 @@
 <sub><code>RECORD 01 / THE OPERATOR</code></sub>
 
 <div align="center">
-  <img src="./assets/citadel-v3/chapter-01-identity.svg" width="100%" alt="Faixa gótica do capítulo I: identidade e engenharia, símbolo do operador" />
+  <img src="./assets/citadel-v4/folio-rule-a.svg" width="100%" alt="" />
 </div>
 
 ```console
@@ -75,7 +75,7 @@ Meu trabalho conecta **código, aplicações desktop, APIs, serviços, bancos de
 <sub><code>RECORD 02 / THE FOUR ORDERS</code></sub>
 
 <div align="center">
-  <img src="./assets/citadel-v3/chapter-02-orders.svg" width="100%" alt="Faixa gótica do capítulo II: software, automação, infraestrutura e segurança" />
+  <img src="./assets/citadel-v4/folio-rule-b.svg" width="100%" alt="" />
 </div>
 
 ```text
@@ -113,13 +113,20 @@ secure-development.service       ACTIVE       Auth / RBAC / Integrity
 <sub><code>RECORD 03 / THE TECHNICAL ARMORY</code></sub>
 
 <div align="center">
-  <img src="./assets/citadel-v3/chapter-03-armory.svg" width="100%" alt="Faixa gótica do capítulo III: linguagens, aplicações e sistemas" />
+  <img src="./assets/citadel-v4/folio-rule-a.svg" width="100%" alt="" />
 </div>
+
+<details>
+<summary><strong>✠ Ver a armaria clássica da V3</strong></summary>
 
 <div align="center">
   <img src="./assets/citadel-v3/armory.svg" width="100%" alt="Armaria do engenheiro: três painéis com linguagens e automação, aplicações e dados, sistemas e entrega" />
   <sub><code>THE ENGINEER'S ARMORY</code> · LANGUAGES / APPLICATIONS / SYSTEMS</sub>
 </div>
+
+</details>
+
+<p><strong>Três ordens da armaria:</strong> linguagens e automação, aplicações e dados, sistemas e entrega. Os badges abaixo são a referência textual.</p>
 
 **`01 / LANGUAGES & AUTOMATION`**
 
@@ -154,7 +161,7 @@ secure-development.service       ACTIVE       Auth / RBAC / Integrity
 <sub><code>RECORD 04 / WORKS FROM THE FORGE</code></sub>
 
 <div align="center">
-  <img src="./assets/citadel-v3/chapter-04-projects.svg" width="100%" alt="Faixa gótica do capítulo IV: obras e projetos de engenharia" />
+  <img src="./assets/citadel-v4/folio-rule-b.svg" width="100%" alt="" />
 </div>
 
 ```text
@@ -174,50 +181,91 @@ secure-development.service       ACTIVE       Auth / RBAC / Integrity
 Os seis fólios abaixo são portais visuais para os repositórios já apresentados. Clique em uma carta para abrir o projeto; as descrições e a tabela técnica original permanecem logo abaixo.
 
 <div align="center">
-  <sub><code>THE FORGE GALLERY // CITADEL V3</code> · Fólios de leitura ampla, com títulos e descrições acessíveis no Markdown.</sub>
+  <sub><code>THE FORGE GALLERY // CITADEL V4</code> · Fólios de leitura ampla, com títulos e descrições acessíveis no Markdown.</sub>
 </div>
 
 <p align="center">
   <a href="https://github.com/DragonBlack18/DeployCraft" title="Abrir DeployCraft no GitHub">
-    <img src="./assets/citadel-v3/project-deploycraft.svg" width="100%" alt="Fólio gótico do projeto DeployCraft: Laboratório · implantação offline, Go, catálogo e integridade" />
+    <img src="./assets/citadel-v4/project-deploycraft.svg" width="100%" alt="Abrir DeployCraft no GitHub; detalhes em texto logo abaixo" />
   </a>
 </p>
 <p align="center"><strong>DeployCraft</strong> · Laboratório · implantação offline, Go, catálogo e integridade</p>
 
 <p align="center">
   <a href="https://github.com/DragonBlack18/OmniForge-Studio" title="Abrir OmniForge Studio no GitHub">
-    <img src="./assets/citadel-v3/project-omniforge.svg" width="100%" alt="Fólio gótico do projeto OmniForge Studio: Experimental · automação visual, desenvolvimento e desktop" />
+    <img src="./assets/citadel-v4/project-omniforge.svg" width="100%" alt="Abrir OmniForge Studio no GitHub; detalhes em texto logo abaixo" />
   </a>
 </p>
 <p align="center"><strong>OmniForge Studio</strong> · Experimental · automação visual, desenvolvimento e desktop</p>
 
 <p align="center">
   <a href="https://github.com/DragonBlack18/vyrnode-releases" title="Abrir VYRNODE no GitHub">
-    <img src="./assets/citadel-v3/project-vyrnode.svg" width="100%" alt="Fólio gótico do projeto VYRNODE: Releases públicos · monitoramento ICMP, Control e Viewer; código-fonte privado" />
+    <img src="./assets/citadel-v4/project-vyrnode.svg" width="100%" alt="Abrir VYRNODE (repositório de releases) no GitHub; detalhes em texto logo abaixo" />
   </a>
 </p>
 <p align="center"><strong>VYRNODE</strong> · Releases públicos · monitoramento ICMP, Control e Viewer; código-fonte privado</p>
 
 <p align="center">
   <a href="https://github.com/DragonBlack18/sistema-de-academia" title="Abrir Vitality Gym no GitHub">
-    <img src="./assets/citadel-v3/project-vitality-gym.svg" width="100%" alt="Fólio gótico do projeto Vitality Gym: Gestão · módulos de negócio, autenticação e controle de acesso" />
+    <img src="./assets/citadel-v4/project-vitality.svg" width="100%" alt="Abrir Vitality Gym no GitHub; detalhes em texto logo abaixo" />
   </a>
 </p>
 <p align="center"><strong>Vitality Gym</strong> · Gestão · módulos de negócio, autenticação e controle de acesso</p>
 
 <p align="center">
   <a href="https://github.com/DragonBlack18/Atlas-IA" title="Abrir Atlas AI no GitHub">
-    <img src="./assets/citadel-v3/project-atlas-ai.svg" width="100%" alt="Fólio gótico do projeto Atlas AI: Assistente desktop · voz, automação e integrações com IA" />
+    <img src="./assets/citadel-v4/project-atlas.svg" width="100%" alt="Abrir Atlas AI no GitHub; detalhes em texto logo abaixo" />
   </a>
 </p>
 <p align="center"><strong>Atlas AI</strong> · Assistente desktop · voz, automação e integrações com IA</p>
 
 <p align="center">
   <a href="https://github.com/DragonBlack18/2iad" title="Abrir 2IAD no GitHub">
-    <img src="./assets/citadel-v3/project-2iad.svg" width="100%" alt="Fólio gótico do projeto 2IAD: Plataforma · incubadora, startups, editais e parceiros" />
+    <img src="./assets/citadel-v4/project-iiad.svg" width="100%" alt="Abrir 2IAD no GitHub; detalhes em texto logo abaixo" />
   </a>
 </p>
 <p align="center"><strong>2IAD</strong> · Plataforma · incubadora, startups, editais e parceiros</p>
+
+<details>
+<summary><strong>✠ Abrir os seis fólios da Citadel Edition V3 (arquivo original)</strong></summary>
+
+<p align="center">
+  <a href="https://github.com/DragonBlack18/DeployCraft" title="Abrir DeployCraft no GitHub">
+    <img src="./assets/citadel-v3/project-deploycraft.svg" width="100%" alt="Fólio gótico do projeto DeployCraft: Laboratório · implantação offline, Go, catálogo e integridade" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/DragonBlack18/OmniForge-Studio" title="Abrir OmniForge Studio no GitHub">
+    <img src="./assets/citadel-v3/project-omniforge.svg" width="100%" alt="Fólio gótico do projeto OmniForge Studio: Experimental · automação visual, desenvolvimento e desktop" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/DragonBlack18/vyrnode-releases" title="Abrir VYRNODE no GitHub">
+    <img src="./assets/citadel-v3/project-vyrnode.svg" width="100%" alt="Fólio gótico do projeto VYRNODE: Releases públicos · monitoramento ICMP, Control e Viewer; código-fonte privado" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/DragonBlack18/sistema-de-academia" title="Abrir Vitality Gym no GitHub">
+    <img src="./assets/citadel-v3/project-vitality-gym.svg" width="100%" alt="Fólio gótico do projeto Vitality Gym: Gestão · módulos de negócio, autenticação e controle de acesso" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/DragonBlack18/Atlas-IA" title="Abrir Atlas AI no GitHub">
+    <img src="./assets/citadel-v3/project-atlas-ai.svg" width="100%" alt="Fólio gótico do projeto Atlas AI: Assistente desktop · voz, automação e integrações com IA" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/DragonBlack18/2iad" title="Abrir 2IAD no GitHub">
+    <img src="./assets/citadel-v3/project-2iad.svg" width="100%" alt="Fólio gótico do projeto 2IAD: Plataforma · incubadora, startups, editais e parceiros" />
+  </a>
+</p>
+
+</details>
 
 <details>
 <summary><strong>✠ Abrir a galeria clássica V2 — os seis cartões originais preservados</strong></summary>
@@ -280,7 +328,7 @@ Os seis fólios abaixo são portais visuais para os repositórios já apresentad
 <sub><code>RECORD 05 / THE ENGINEERING OATH</code></sub>
 
 <div align="center">
-  <img src="./assets/citadel-v3/chapter-05-oath.svg" width="100%" alt="Faixa gótica do capítulo V: princípios de design, segurança e operação" />
+  <img src="./assets/citadel-v4/folio-rule-a.svg" width="100%" alt="" />
 </div>
 
 ```ini
@@ -325,7 +373,7 @@ A segurança é um campo que estudo e aplico nos meus projetos, especialmente em
 <sub><code>RECORD 06 / THE CRIMSON ARCHIVE</code></sub>
 
 <div align="center">
-  <img src="./assets/citadel-v3/chapter-06-archive.svg" width="100%" alt="Faixa gótica do arquivo da Cidadela: animações preservadas" />
+  <img src="./assets/citadel-v4/folio-rule-b.svg" width="100%" alt="" />
 </div>
 
 A cena <strong>The Cathedral Watch</strong> continua em destaque no capítulo IV. As outras animações originais ficam neste arquivo expansível, preservadas sem sobrecarregar a leitura do perfil.
@@ -350,10 +398,43 @@ A cena <strong>The Cathedral Watch</strong> continua em destaque no capítulo IV
 
 </details>
 
-<img src="./assets/templar-divider.svg" width="100%" alt="Divisória heráldica templária" />
+<details>
+<summary><strong>✠ Abrir as seis faixas originais e o colofão V3</strong></summary>
+
+<div align="center">
+  <img src="./assets/citadel-v3/chapter-01-identity.svg" width="100%" alt="Faixa gótica do capítulo I: identidade e engenharia, símbolo do operador" />
+</div>
+
+<div align="center">
+  <img src="./assets/citadel-v3/chapter-02-orders.svg" width="100%" alt="Faixa gótica do capítulo II: software, automação, infraestrutura e segurança" />
+</div>
+
+<div align="center">
+  <img src="./assets/citadel-v3/chapter-03-armory.svg" width="100%" alt="Faixa gótica do capítulo III: linguagens, aplicações e sistemas" />
+</div>
+
+<div align="center">
+  <img src="./assets/citadel-v3/chapter-04-projects.svg" width="100%" alt="Faixa gótica do capítulo IV: obras e projetos de engenharia" />
+</div>
+
+<div align="center">
+  <img src="./assets/citadel-v3/chapter-05-oath.svg" width="100%" alt="Faixa gótica do capítulo V: princípios de design, segurança e operação" />
+</div>
+
+<div align="center">
+  <img src="./assets/citadel-v3/chapter-06-archive.svg" width="100%" alt="Faixa gótica do arquivo da Cidadela: animações preservadas" />
+</div>
 
 <div align="center">
   <img src="./assets/citadel-v3/colophon.svg" width="100%" alt="Colofão da Citadel Edition V3: escudo carmesim, detalhes dourados e lemas Fide, Disciplina e Vigilantia" />
+</div>
+
+</details>
+
+<img src="./assets/templar-divider.svg" width="100%" alt="Divisória heráldica templária" />
+
+<div align="center">
+  <img src="./assets/citadel-v4/colophon.svg" width="100%" alt="" />
 </div>
 
 <div align="center">

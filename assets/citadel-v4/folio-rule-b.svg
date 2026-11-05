@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="48" viewBox="0 0 1000 48" role="img" aria-labelledby="title desc">
+<title id="title">Citadel folio ornament B</title><desc id="desc">Filetes medievais e uma pequena cruz heráldica. Divisória ornamental sem informação textual.</desc>
+<defs><linearGradient id="line"><stop stop-color="#3C1722" stop-opacity=".2"/><stop offset=".5" stop-color="#AE6E70"/><stop offset="1" stop-color="#3C1722" stop-opacity=".2"/></linearGradient></defs>
+<path d="M10 24H467M533 24H990" stroke="url(#line)" stroke-width="1.8"/><path d="M457 18l-11 6 11 6M543 18l11 6-11 6" fill="none" stroke="#945264" stroke-width="2"/>
+<path d="M500 4L523 17V32L500 44L477 32V17Z" fill="#140B11" stroke="#824150" stroke-width="2"/><path d="M494 12H506V19H513V30H506V37H494V30H487V19H494Z" fill="#D4AE87" stroke="#D8B4A1" stroke-width=".7"/>
+</svg>

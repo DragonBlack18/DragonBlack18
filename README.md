@@ -1,15 +1,20 @@
 <!--
   DRAGONBLACK18 / TEMPLAR TERMINAL
   Identidade visual: fantasia gótica, pedra, aço e vermelho carmesim.
-  README compatível com GitHub: HTML permitido, SVG e WebP locais; sem scripts.
+  README compatível com GitHub: Markdown/HTML permitido, SVG estático, WebP e GIF locais; sem scripts.
+  2026 / CITADEL EDITION: direção de arte e navegação inspiradas em um códice de engenharia.
   A arte de capa foi fornecida pelo proprietário do perfil.
 -->
+
+<a name="codex-top"></a>
 
 <div align="center">
 
 <img src="./assets/templar-terminal.svg" width="100%" alt="Davi Brand — terminal de engenharia com cruz heráldica carmesim, ornamentos góticos e inscrições medievais" />
 
 <img src="./assets/templar-cathedral-cover.webp" width="100%" alt="Arte de fantasia sombria enviada pelo autor: figura coroada de espinhos em um trono, ruínas de catedral gótica, bandeiras com cruzes, tempestade e brasas vermelhas" />
+
+<img src="./assets/codex-portico.svg" width="100%" alt="O pórtico da Cidadela: emblema heráldico carmesim, inscrições medievais e lema de engenharia" />
 
 <sub><code>✠  THE CRIMSON CODEX  ✠</code> · FIDE · DISCIPLINA · VIGILANTIA</sub>
 
@@ -21,9 +26,25 @@
 
 </div>
 
+<!-- Índice navegável com âncoras explícitas, estável mesmo se os títulos forem refinados. -->
+<p align="center">
+  <a href="#codex-whoami"><kbd>01 / IDENTITY</kbd></a>&nbsp;
+  <a href="#codex-orders"><kbd>02 / ORDERS</kbd></a>&nbsp;
+  <a href="#codex-armory"><kbd>03 / ARMORY</kbd></a>&nbsp;
+  <a href="#codex-projects"><kbd>04 / PROJECTS</kbd></a>&nbsp;
+  <a href="#codex-oath"><kbd>05 / OATH</kbd></a>&nbsp;
+  <a href="#codex-archive"><kbd>06 / ARCHIVE</kbd></a>
+</p>
+
+<p align="center"><sub><code>INDEX / A passagem entre fantasia medieval e engenharia de software</code></sub></p>
+
 <img src="./assets/templar-divider.svg" width="100%" alt="Divisória heráldica com cruz carmesim" />
 
+<a name="codex-whoami"></a>
+
 ## ✠ CAPÍTULO I — `whoami`
+
+<sub><code>RECORD 01 / THE OPERATOR</code></sub>
 
 ```console
 ┌── (davi@citadel)-[~/identity]
@@ -43,7 +64,11 @@ Meu trabalho conecta **código, aplicações desktop, APIs, serviços, bancos de
 
 > **Fide · Disciplina · Vigilantia** — uma identidade visual de inspiração medieval, com princípios modernos de engenharia: disciplina técnica, confiabilidade e atenção à segurança.
 
+<a name="codex-orders"></a>
+
 ## ✠ CAPÍTULO II — `systemctl list-units --type=service`
+
+<sub><code>RECORD 02 / THE FOUR ORDERS</code></sub>
 
 ```text
 UNIT                             STATE        DOMAIN
@@ -64,11 +89,20 @@ secure-development.service       ACTIVE       Auth / RBAC / Integrity
 | **IV · Segurança** | Autenticação, permissões, menor privilégio, validação e proteção de credenciais. |
 
 <div align="center">
+  <img src="./assets/codex-atlas.svg" width="100%" alt="Atlas da Cidadela: quatro vitrais góticos representam software, automação, infraestrutura e desenvolvimento seguro" />
+  <sub><code>THE FOUR ORDERS</code> · DESENHAR / AUTOMATIZAR / OPERAR / PROTEGER</sub>
+</div>
+
+<div align="center">
   <img src="./assets/iron-vow.gif" width="100%" alt="Animação original: grande espada fincada no solo, lua crescente e cinzas ao vento" />
   <sub><code>CHAPTER DIVIDER // THE IRON VOW</code></sub>
 </div>
 
+<a name="codex-armory"></a>
+
 ## ✠ CAPÍTULO III — `ls -la /opt/armory`
+
+<sub><code>RECORD 03 / THE TECHNICAL ARMORY</code></sub>
 
 **`01 / LANGUAGES & AUTOMATION`**
 
@@ -96,7 +130,11 @@ secure-development.service       ACTIVE       Auth / RBAC / Integrity
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-160b10?style=flat-square&logo=githubactions&logoColor=cf5060)
 ![Git](https://img.shields.io/badge/Git-160b10?style=flat-square&logo=git&logoColor=cf5060)
 
+<a name="codex-projects"></a>
+
 ## ✠ CAPÍTULO IV — `tree ~/projects -L 1`
+
+<sub><code>RECORD 04 / WORKS FROM THE FORGE</code></sub>
 
 ```text
 /home/davi/projects/
@@ -122,7 +160,11 @@ secure-development.service       ACTIVE       Auth / RBAC / Integrity
   <sub><code>THE CATHEDRAL WATCH</code> · CAMERA DRIFT / WIND / FLOWERS / EMBERS / ECLIPSE</sub>
 </div>
 
+<a name="codex-oath"></a>
+
 ## ✠ CAPÍTULO V — `cat /etc/ordo/engineering-oath.conf`
+
+<sub><code>RECORD 05 / THE ENGINEERING OATH</code></sub>
 
 ```ini
 [design]
@@ -150,11 +192,22 @@ evidence          = recorded
 regressions       = investigated
 ```
 
+<div align="center">
+  <img src="./assets/system-pipeline.svg" width="100%" alt="Fluxo de trabalho: planejar, construir, testar, reforçar a segurança, implantar e observar" />
+  <sub><code>THE FORGE PROTOCOL</code> · PLAN → BUILD → TEST → HARDEN → DEPLOY → OBSERVE</sub>
+</div>
+
+<sub>O diagrama representa o método de trabalho e não um indicador de execução de CI ou aprovação de todos os repositórios.</sub>
+
 A segurança é um campo que estudo e aplico nos meus projetos, especialmente em **desenvolvimento seguro, controle de acesso e proteção de sistemas**. Essas linhas representam princípios de trabalho — não uma certificação ou garantia de que todos os projetos já estejam homologados para produção.
+
+<a name="codex-archive"></a>
 
 ## ✠ ARQUIVO DA CIDADELA — `ls ./animated-artworks/`
 
-As animações antigas permanecem disponíveis. A nova cena <strong>The Cathedral Watch</strong> aparece em destaque acima; as demais ficam no arquivo expansível para manter o perfil organizado.
+<sub><code>RECORD 06 / THE CRIMSON ARCHIVE</code></sub>
+
+A cena <strong>The Cathedral Watch</strong> continua em destaque no capítulo IV. As outras animações originais ficam neste arquivo expansível, preservadas sem sobrecarregar a leitura do perfil.
 
 <details>
 <summary><b>✠ Abrir o arquivo de wallpapers carmesins</b></summary>
@@ -185,5 +238,7 @@ As animações antigas permanecem disponíveis. A nova cena <strong>The Cathedra
 **✠ FORGE. AUTOMATE. DEFEND. REPEAT. ✠**
 
 <sub>Entre pedra, aço e código. · GitHub: <a href="https://github.com/DragonBlack18">@DragonBlack18</a></sub>
+
+<p><a href="#codex-top"><kbd>✠ VOLTAR AO PORTÃO DA CIDADELA ✠</kbd></a></p>
 
 </div>

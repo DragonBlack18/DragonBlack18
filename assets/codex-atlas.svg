@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="380" viewBox="0 0 1280 380" role="img" aria-labelledby="title desc">
+<title id="title">The Four Orders of the Citadel — Engineering Atlas</title>
+<desc id="desc">Quatro vitrais góticos representam desenvolvimento, automação, infraestrutura e segurança com ícones técnicos e inscrições de especialidade.</desc>
+<defs>
+ <linearGradient id="sky" x2="1" y2="1"><stop stop-color="#07070a"/><stop offset=".45" stop-color="#1b0a11"/><stop offset="1" stop-color="#08070a"/></linearGradient>
+ <radialGradient id="glow"><stop stop-color="#9d2941" stop-opacity=".35"/><stop offset="1" stop-color="#41101f" stop-opacity="0"/></radialGradient>
+ <linearGradient id="rule" x2="1" y2="0"><stop stop-color="#31111d"/><stop offset=".5" stop-color="#b84457"/><stop offset="1" stop-color="#31111d"/></linearGradient>
+ <pattern id="stone" width="32" height="22" patternUnits="userSpaceOnUse"><path d="M0 2H32M16 2V22M0 22H32" fill="none" stroke="#e7b5b4" stroke-opacity=".045"/></pattern>
+</defs>
+<rect x="3" y="3" width="1274" height="374" rx="13" fill="url(#sky)" stroke="#5b2735" stroke-width="2"/>
+<rect x="12" y="12" width="1256" height="356" rx="8" fill="url(#stone)"/>
+<ellipse cx="640" cy="162" rx="425" ry="215" fill="url(#glow)"/>
+<path d="M34 71H520 M760 71H1246 M26 330H1254" stroke="url(#rule)" stroke-width="1.5"/>
+<text x="640" y="44" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" letter-spacing="3.5" font-size="27" fill="#f1d8d4">THE FOUR ORDERS</text>
+<text x="640" y="65" text-anchor="middle" font-family="Consolas, 'Liberation Mono', monospace" letter-spacing="1.5" font-size="11.5" fill="#cb8088">A CARTOGRAPHY OF ENGINEERING DISCIPLINES</text>
+<path d="M34 322 V174 Q61 121 169 104 Q277 121 304 174 V322Z" fill="#160e13" stroke="#73303e" stroke-width="2"/>
+<path d="M44 311 V176 Q71 139 169 118 Q267 139 294 176 V311Z" fill="#1e1018" stroke="#49232d"/>
+<path d="M57 304 V183 Q92 148 169 135 Q246 148 281 183 V304" fill="none" stroke="#a44452" stroke-opacity=".62"/>
+<path d="M169 121V302 M48 246H290" stroke="#863442" stroke-opacity=".19"/>
+<text x="169" y="157" text-anchor="middle" font-family="Georgia,serif" font-size="15" fill="#c85b67">I</text><circle cx="169" cy="198" r="46" fill="#0b090c" stroke="#7e303e" stroke-opacity=".8"/><path d="M146 181l-17 15 17 15M192 181l17 15-17 15 M180 173l-22 47" fill="none" stroke="#e8c2bb" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="169" y="267" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-weight="700" font-size="19" letter-spacing="1.6" fill="#f0d9d2">SOFTWARE</text>
+<text x="169" y="291" text-anchor="middle" font-family="Consolas, 'Liberation Mono', monospace" font-size="11.6" fill="#c17f84">APIS  /  DESKTOP  /  DATA</text>
+<path d="M104 307H234" stroke="#943849" stroke-width="2"/>
+<path d="M348 322 V174 Q375 121 483 104 Q591 121 618 174 V322Z" fill="#160e13" stroke="#73303e" stroke-width="2"/>
+<path d="M358 311 V176 Q385 139 483 118 Q581 139 608 176 V311Z" fill="#1e1018" stroke="#49232d"/>
+<path d="M371 304 V183 Q406 148 483 135 Q560 148 595 183 V304" fill="none" stroke="#a44452" stroke-opacity=".62"/>
+<path d="M483 121V302 M362 246H604" stroke="#863442" stroke-opacity=".19"/>
+<text x="483" y="157" text-anchor="middle" font-family="Georgia,serif" font-size="15" fill="#c85b67">II</text><circle cx="483" cy="198" r="46" fill="#0b090c" stroke="#7e303e" stroke-opacity=".8"/><circle cx="483" cy="198" r="20" fill="none" stroke="#e8c2bb" stroke-width="5"/><circle cx="483" cy="198" r="7" fill="#b63b4d"/><path d="M483 171v-8" stroke="#e8c2bb" stroke-width="7" stroke-linecap="square" transform="rotate(0 483 198)"/><path d="M483 171v-8" stroke="#e8c2bb" stroke-width="7" stroke-linecap="square" transform="rotate(45 483 198)"/><path d="M483 171v-8" stroke="#e8c2bb" stroke-width="7" stroke-linecap="square" transform="rotate(90 483 198)"/><path d="M483 171v-8" stroke="#e8c2bb" stroke-width="7" stroke-linecap="square" transform="rotate(135 483 198)"/><path d="M483 171v-8" stroke="#e8c2bb" stroke-width="7" stroke-linecap="square" transform="rotate(180 483 198)"/><path d="M483 171v-8" stroke="#e8c2bb" stroke-width="7" stroke-linecap="square" transform="rotate(225 483 198)"/><path d="M483 171v-8" stroke="#e8c2bb" stroke-width="7" stroke-linecap="square" transform="rotate(270 483 198)"/><path d="M483 171v-8" stroke="#e8c2bb" stroke-width="7" stroke-linecap="square" transform="rotate(315 483 198)"/>
+<text x="483" y="267" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-weight="700" font-size="19" letter-spacing="1.6" fill="#f0d9d2">AUTOMATION</text>
+<text x="483" y="291" text-anchor="middle" font-family="Consolas, 'Liberation Mono', monospace" font-size="11.6" fill="#c17f84">SCRIPTS  /  CI-CD  /  FLOWS</text>
+<path d="M418 307H548" stroke="#943849" stroke-width="2"/>
+<path d="M662 322 V174 Q689 121 797 104 Q905 121 932 174 V322Z" fill="#160e13" stroke="#73303e" stroke-width="2"/>
+<path d="M672 311 V176 Q699 139 797 118 Q895 139 922 176 V311Z" fill="#1e1018" stroke="#49232d"/>
+<path d="M685 304 V183 Q720 148 797 135 Q874 148 909 183 V304" fill="none" stroke="#a44452" stroke-opacity=".62"/>
+<path d="M797 121V302 M676 246H918" stroke="#863442" stroke-opacity=".19"/>
+<text x="797" y="157" text-anchor="middle" font-family="Georgia,serif" font-size="15" fill="#c85b67">III</text><circle cx="797" cy="198" r="46" fill="#0b090c" stroke="#7e303e" stroke-opacity=".8"/><path d="M797 182L772 210H822Z M797 182V210" stroke="#e8c2bb" stroke-width="3" fill="none"/><circle cx="797" cy="182" r="7" fill="#be4a5b" stroke="#f1c2b8" stroke-width="2"/><circle cx="772" cy="210" r="7" fill="#be4a5b" stroke="#f1c2b8" stroke-width="2"/><circle cx="822" cy="210" r="7" fill="#be4a5b" stroke="#f1c2b8" stroke-width="2"/>
+<text x="797" y="267" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-weight="700" font-size="19" letter-spacing="1.6" fill="#f0d9d2">INFRASTRUCTURE</text>
+<text x="797" y="291" text-anchor="middle" font-family="Consolas, 'Liberation Mono', monospace" font-size="11.6" fill="#c17f84">LINUX  /  NETWORKS  /  OPS</text>
+<path d="M732 307H862" stroke="#943849" stroke-width="2"/>
+<path d="M976 322 V174 Q1003 121 1111 104 Q1219 121 1246 174 V322Z" fill="#160e13" stroke="#73303e" stroke-width="2"/>
+<path d="M986 311 V176 Q1013 139 1111 118 Q1209 139 1236 176 V311Z" fill="#1e1018" stroke="#49232d"/>
+<path d="M999 304 V183 Q1034 148 1111 135 Q1188 148 1223 183 V304" fill="none" stroke="#a44452" stroke-opacity=".62"/>
+<path d="M1111 121V302 M990 246H1232" stroke="#863442" stroke-opacity=".19"/>
+<text x="1111" y="157" text-anchor="middle" font-family="Georgia,serif" font-size="15" fill="#c85b67">IV</text><circle cx="1111" cy="198" r="46" fill="#0b090c" stroke="#7e303e" stroke-opacity=".8"/><path d="M1111 163l29 11v20q-2 26-29 39q-27-13-29-39v-20z" fill="#431825" stroke="#e9bdba" stroke-width="3"/><path d="M1105 180h12v13h13v12h-13v13h-12v-13h-13v-12h13z" fill="#e77b83"/>
+<text x="1111" y="267" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-weight="700" font-size="19" letter-spacing="1.6" fill="#f0d9d2">SECURE SYSTEMS</text>
+<text x="1111" y="291" text-anchor="middle" font-family="Consolas, 'Liberation Mono', monospace" font-size="11.6" fill="#c17f84">AUTH  /  RBAC  /  INTEGRITY</text>
+<path d="M1046 307H1176" stroke="#943849" stroke-width="2"/>
+<path d="M35 344H1245" stroke="#54212e"/>
+<text x="53" y="359" font-family="Consolas, 'Liberation Mono', monospace" font-size="12" fill="#a77e82">CITADEL / ENGINEERING ATLAS</text>
+<text x="1227" y="359" text-anchor="end" font-family="Consolas, 'Liberation Mono', monospace" font-size="12" fill="#a77e82">DESIGN  ·  AUTOMATE  ·  OPERATE  ·  DEFEND</text>
+</svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="168" viewBox="0 0 1280 168" role="img" aria-labelledby="t d">
+<title id="t">The Citadel Gate — Crimson Codex</title>
+<desc id="d">Selo heráldico de uma cidadela medieval emoldurando um convite ao arquivo de engenharia, com cruz templária carmesim, arabescos e textura de pedra.</desc>
+<defs>
+ <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#070609"/><stop offset=".5" stop-color="#1c0c12"/><stop offset="1" stop-color="#080709"/></linearGradient>
+ <linearGradient id="sword" x2="0" y2="1"><stop stop-color="#e5b5a9"/><stop offset=".5" stop-color="#963447"/><stop offset="1" stop-color="#42131f"/></linearGradient>
+ <linearGradient id="rule"><stop stop-color="#32121d"/><stop offset=".5" stop-color="#d3485d"/><stop offset="1" stop-color="#32121d"/></linearGradient>
+ <pattern id="etch" width="21" height="21" patternUnits="userSpaceOnUse"><path d="M0 19l4-3M9 5l4-2M18 13l2-2" stroke="#f5c4b8" stroke-opacity=".07" stroke-width=".7"/></pattern>
+</defs>
+<rect x="3" y="3" width="1274" height="162" rx="8" fill="url(#bg)" stroke="#5f2231" stroke-width="2"/>
+<rect x="11" y="11" width="1258" height="146" rx="4" fill="url(#etch)" stroke="#713041" stroke-opacity=".55"/>
+<path d="M24 29H562 M718 29H1256 M24 139H562 M718 139H1256" stroke="url(#rule)" stroke-width="1.4"/>
+<path d="M32 25l13 4-13 4M1248 25l-13 4 13 4M32 135l13 4-13 4M1248 135l-13 4 13 4" stroke="#b95160" stroke-width="1.5" fill="none"/>
+<g fill="none" stroke="#6e2b3b" stroke-opacity=".60"><path d="M49 48V120M1231 48V120M57 48l9 8-9 8M1223 48l-9 8 9 8"/></g>
+<text x="86" y="62" fill="#c17880" font-family="Consolas, 'Liberation Mono', monospace" font-size="15" letter-spacing="2">✠  ARCHIVE / VOL. 01</text>
+<text x="84" y="100" fill="#f1dbd4" font-family="Georgia, 'Times New Roman', serif" font-size="30" font-weight="700" letter-spacing="3">ENTER THE CITADEL</text>
+<text x="86" y="124" fill="#a78b8a" font-family="Consolas, 'Liberation Mono', monospace" font-size="13">ENGINEERING · SYSTEMS · DEFENSE</text>
+<text x="1194" y="62" text-anchor="end" fill="#c17880" font-family="Consolas, 'Liberation Mono', monospace" font-size="15" letter-spacing="2">THE OPERATOR'S CHRONICLE</text>
+<text x="1194" y="100" text-anchor="end" fill="#f1dbd4" font-family="Georgia, 'Times New Roman', serif" font-size="30" font-weight="700" letter-spacing="3">FORGED IN CODE</text>
+<text x="1194" y="124" text-anchor="end" fill="#a78b8a" font-family="Consolas, 'Liberation Mono', monospace" font-size="13">BUILD · VERIFY · PROTECT · EVOLVE</text>
+<g transform="translate(640 83)">
+ <circle r="73" fill="#210b13" stroke="#9a3343" stroke-width="1.5"/>
+ <circle r="65" fill="#0d080c" stroke="#5b2634" stroke-width="2"/>
+ <circle r="54" fill="none" stroke="#ad4553" stroke-opacity=".5" stroke-dasharray="2 8" stroke-width="2"/>
+ <path d="M0-58L9-42L0-26L-9-42Z M58 0L42 9L26 0L42-9Z M0 58L9 42L0 26L-9 42Z M-58 0L-42 9L-26 0L-42-9Z" fill="#b33d4f"/>
+ <path d="M-17 -37H17L9 -11L37 -17V17L9 11L17 37H-17L-9 11L-37 17V-17L-9 -11Z" fill="url(#sword)" stroke="#fa8791" stroke-width="1.1"/>
+ <path d="M-9 -29H9L5 -6L29 -9V9L5 6L9 29H-9L-5 6L-29 9V-9L-5 -6Z" fill="#af243b"/>
+ <circle r="5" fill="#f2b1aa"/>
+</g>
+</svg>

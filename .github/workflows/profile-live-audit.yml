@@ -1,0 +1,38 @@
+name: Live GitHub profile visual audit
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - scripts/audit_profile_live.py
+      - .github/workflows/profile-live-audit.yml
+permissions:
+  contents: read
+jobs:
+  actual-github-visual-audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout README and audit script
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install Playwright and Chromium
+        run: |
+          python -m pip install --disable-pip-version-check playwright==1.56.0
+          python -m playwright install --with-deps chromium
+      - name: Audit the public GitHub profile at 8 viewport/theme combinations
+        run: python scripts/audit_profile_live.py
+        env:
+          PROFILE_URL: https://github.com/DragonBlack18
+      - name: Upload visual evidence and structured audit
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: github-profile-live-audit
+          path: artifacts/profile-live-audit/
+          if-no-files-found: warn
+          retention-days: 14

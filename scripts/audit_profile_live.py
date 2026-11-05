@@ -79,11 +79,16 @@ def audit_case(browser, width: int, scheme: str) -> dict:
                 const fragment = decodeURIComponent(h.split('#').slice(1).join('#'));
                 return {href:h, targetExists: !!(
                   document.getElementById(fragment) ||
+                  document.getElementById('user-content-' + fragment) ||
                   document.getElementById(fragment.replace(/^user-content-/, '')) ||
                   document.querySelector('[name="' + CSS.escape(fragment) + '"]') ||
+                  document.querySelector('[name="' + CSS.escape('user-content-' + fragment) + '"]') ||
                   document.querySelector('[name="' + CSS.escape(fragment.replace(/^user-content-/, '')) + '"]')
                 )};
               });
+              const anchorMarkers = [...document.querySelectorAll('[id], [name]')]
+                .filter(el => /codex|cap[ií]tulo/i.test((el.id || '') + ' ' + (el.getAttribute('name') || '')))
+                .slice(0, 50).map(el => ({tag:el.tagName, id:el.id, name:el.getAttribute('name')}));
               const titleSections = article ? [...article.querySelectorAll('h2')].map(x => x.innerText) : [];
               const topImgs = images.filter(img => img.getClientRects().length > 0);
               const contentWidth = Math.round(article?.getBoundingClientRect().width || 0);
@@ -108,6 +113,7 @@ def audit_case(browser, width: int, scheme: str) -> dict:
                 imageState,
                 projects: projectTitles,
                 navigation,
+                anchorMarkers,
                 htmlMode: document.documentElement.getAttribute('data-color-mode'),
                 resolvedTheme: document.documentElement.getAttribute('data-dark-theme') || document.documentElement.getAttribute('data-light-theme')
               };
@@ -135,6 +141,8 @@ def audit_case(browser, width: int, scheme: str) -> dict:
             result["warnings"].append(f"Only {len(metrics['navigation'])} chapter navigation links detected")
         if any(not a["targetExists"] for a in metrics["navigation"]):
             result["errors"].append("Chapter navigation link has no in-page destination")
+            print("  NAVIGATION DEBUG:", json.dumps(metrics["navigation"], ensure_ascii=False), flush=True)
+            print("  ANCHOR MARKERS:", json.dumps(metrics["anchorMarkers"], ensure_ascii=False), flush=True)
         broken = [img["src"] for img in metrics["imageState"] if img["complete"] and img["naturalWidth"] == 0]
         unloaded = [img["src"] for img in metrics["imageState"] if not img["complete"]]
         if broken:

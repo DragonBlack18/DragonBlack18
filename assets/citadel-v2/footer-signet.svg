@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="144" viewBox="0 0 1280 144" role="img" aria-labelledby="title desc">
+<title id="title">The Codex Signet — Citadel Edition V2</title>
+<desc id="desc">Colofão ornamental carmesim que encerra o códice de engenharia, preservando a assinatura profissional e o juramento técnico.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#08070a"/><stop offset=".5" stop-color="#1b0b13"/><stop offset="1" stop-color="#08070a"/></linearGradient><linearGradient id="ink"><stop stop-color="#552333"/><stop offset=".5" stop-color="#c74c60"/><stop offset="1" stop-color="#552333"/></linearGradient></defs>
+<rect x="3" y="3" width="1274" height="138" rx="11" fill="url(#bg)" stroke="#662938" stroke-width="2"/>
+<rect x="14" y="14" width="1252" height="116" rx="4" fill="none" stroke="#4b2431"/>
+<path d="M36 71H366M914 71H1244" stroke="url(#ink)" stroke-width="2"/>
+<path d="M366 71l15-7 15 7-15 7zM914 71l-15-7-15 7 15 7z" fill="#ba465a"/>
+<path d="M640 23l35 12v29q-1 26-35 51q-34-25-35-51V35Z" fill="#1c0d15" stroke="#a64154" stroke-width="2"/>
+<path d="M632 45h16v15h15v16h-15v15h-16V76h-15V60h15Z" fill="#bd4054"/>
+<text x="394" y="44" font-family="Consolas, 'Liberation Mono', monospace" font-size="14" text-anchor="middle" letter-spacing="2" fill="#ba8790">CODEX / 2026</text>
+<text x="886" y="44" font-family="Consolas, 'Liberation Mono', monospace" font-size="14" text-anchor="middle" letter-spacing="2" fill="#ba8790">CITADEL / V2</text>
+<text x="640" y="128" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="17" font-style="italic" letter-spacing="2" fill="#d5aba9">Fide · Disciplina · Vigilantia</text>
+</svg>

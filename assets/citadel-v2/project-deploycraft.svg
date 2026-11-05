@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="590" height="256" viewBox="0 0 590 256" role="img" aria-labelledby="title desc">
+<title id="title">DEPLOYCRAFT — Project Folio 01</title>
+<desc id="desc">Cartão heráldico do projeto DEPLOYCRAFT, área DEPLOYMENT / OPERATIONS, descrição OFFLINE INSTALLATION ENGINE e marcador LABORATORY.</desc>
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#08080b"/><stop offset=".52" stop-color="#1c0c14"/><stop offset="1" stop-color="#10090f"/></linearGradient>
+ <radialGradient id="glow"><stop stop-color="#d96872" stop-opacity=".28"/><stop offset="1" stop-color="#d96872" stop-opacity="0"/></radialGradient>
+ <pattern id="hatch" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M0 20L20 0" stroke="#efc1b9" stroke-opacity=".042"/></pattern>
+</defs>
+<rect x="2" y="2" width="586" height="252" rx="12" fill="url(#bg)" stroke="#6f303e" stroke-width="2"/>
+<rect x="12" y="12" width="566" height="232" rx="6" fill="url(#hatch)" stroke="#40202d"/>
+<rect x="16" y="16" width="6" height="224" rx="2" fill="#d96872"/>
+<path d="M34 52H422M34 182H425M34 216H558" stroke="#7f3545" stroke-opacity=".7"/>
+<text x="36" y="38" font-family="Consolas, 'Liberation Mono', monospace" font-size="14" letter-spacing="1.1" fill="#d96872">PROJECT FOLIO 01 / DEPLOYMENT / OPERATIONS</text>
+<text x="35" y="86" font-family="Georgia, 'Times New Roman', serif" font-size="32" font-weight="700" letter-spacing="1" fill="#f1dcd4">DEPLOYCRAFT</text>
+<text x="35" y="119" font-family="Consolas, 'Liberation Mono', monospace" font-size="16" fill="#cfacaa">OFFLINE INSTALLATION ENGINE</text>
+<text x="35" y="146" font-family="Consolas, 'Liberation Mono', monospace" font-size="14" fill="#b78085">GO  /  CATALOG  /  INTEGRITY</text>
+<rect x="34" y="158" width="148" height="25" rx="12" fill="#301420" stroke="#d96872" stroke-opacity=".62"/>
+<circle cx="49" cy="170.5" r="3" fill="#d96872"/>
+<text x="59" y="175" font-family="Consolas, 'Liberation Mono', monospace" font-size="13" fill="#ecc6bf">LABORATORY</text>
+<circle cx="480" cy="121" r="104" fill="url(#glow)"/>
+<circle cx="480" cy="121" r="69" fill="#100b12" stroke="#9e4353" stroke-width="2"/>
+<circle cx="480" cy="121" r="57" fill="none" stroke="#d96872" stroke-opacity=".45" stroke-dasharray="2 7" stroke-width="2"/>
+<g transform="translate(480 121)"><path d="M-34-12L0-31L34-12L0 8Z M-34-12V22L0 43L34 22V-12M0 8V43" fill="none" stroke="#ead0c4" stroke-width="3" stroke-linejoin="round"/><path d="M-15-23L18-3M0 8L-15 16M0 8L15 16" stroke="#d96872" stroke-width="3" fill="none"/></g>
+<path d="M470 40l10-9 10 9M470 202l10 9 10-9" fill="none" stroke="#d96872" stroke-opacity=".7" stroke-width="2"/>
+<text x="36" y="238" font-family="Consolas, 'Liberation Mono', monospace" font-size="13" fill="#d78c93">VIEW REPOSITORY</text>
+<path d="M177 232H193l-5-5m5 5-5 5" fill="none" stroke="#d96872" stroke-width="2"/>
+<text x="558" y="238" text-anchor="end" font-family="Consolas, 'Liberation Mono', monospace" font-size="12" fill="#92636f">DRAGONBLACK18 / 01</text>
+</svg>

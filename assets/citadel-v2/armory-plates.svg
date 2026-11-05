@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="310" viewBox="0 0 1280 310" role="img" aria-labelledby="title desc">
+<title id="title">Arsenal of the Citadel — Engineering Tooling</title>
+<desc id="desc">Painel decorativo organizado em três ordens: linguagens e automação, aplicações e dados, sistemas e entrega. As tecnologias estão detalhadas em texto abaixo no README.</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#07070a"/><stop offset=".53" stop-color="#160b13"/><stop offset="1" stop-color="#07070a"/></linearGradient><linearGradient id="edge"><stop stop-color="#491522"/><stop offset=".5" stop-color="#dc5b6b"/><stop offset="1" stop-color="#491522"/></linearGradient></defs>
+<rect x="3" y="3" width="1274" height="304" rx="12" fill="url(#bg)" stroke="#582735" stroke-width="2"/>
+<path d="M24 56H1255M24 289H1255" stroke="url(#edge)" stroke-width="1.5"/>
+<text x="30" y="42" font-family="Georgia, 'Times New Roman', serif" font-size="30" letter-spacing="3" font-weight="700" fill="#f0d9d3">THE ENGINEER'S ARMORY</text>
+<text x="1245" y="41" text-anchor="end" font-family="Consolas, 'Liberation Mono', monospace" font-size="15" letter-spacing="1.4" fill="#c07a83">TOOLS FOR THE WORK / NOT A CERTIFICATION</text>
+<rect x="28" y="72" width="391" height="210" rx="12" fill="#150d14" stroke="#793545" stroke-width="1.6"/>
+<rect x="36" y="80" width="375" height="194" rx="8" fill="none" stroke="#3a1927"/>
+<path d="M46 113H259M46 231H400" stroke="#743042"/>
+<text x="48" y="103" font-family="Consolas, 'Liberation Mono', monospace" font-size="16" letter-spacing="2" fill="#c56e7b">ORDER 01</text>
+<text x="50" y="148" font-family="Georgia, 'Times New Roman', serif" font-size="29" font-weight="700" letter-spacing="1" fill="#f0dcd4">LANGUAGES</text>
+<text x="50" y="175" font-family="Consolas, 'Liberation Mono', monospace" font-size="16" fill="#cb9699">AUTOMATION &amp; LOGIC</text>
+<text x="50" y="211" font-family="Consolas, 'Liberation Mono', monospace" font-size="12.5" fill="#e1baba">PYTHON  /  GO  /  TYPESCRIPT</text>
+<text x="50" y="253" font-family="Consolas, 'Liberation Mono', monospace" font-size="12.5" fill="#ad7e87">JAVASCRIPT  /  POWERSHELL  /  SQL</text>
+<g transform="translate(351 144)"><circle r="45" fill="#201018" stroke="#9c4a58" stroke-width="1.3"/><path d="M-17-18L-33 0L-17 18M17-18L33 0L17 18M8-27L-8 27" fill="none" stroke="#e8c5be" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></g>
+<rect x="449" y="72" width="391" height="210" rx="12" fill="#150d14" stroke="#793545" stroke-width="1.6"/>
+<rect x="457" y="80" width="375" height="194" rx="8" fill="none" stroke="#3a1927"/>
+<path d="M467 113H680M467 231H821" stroke="#743042"/>
+<text x="469" y="103" font-family="Consolas, 'Liberation Mono', monospace" font-size="16" letter-spacing="2" fill="#c56e7b">ORDER 02</text>
+<text x="471" y="148" font-family="Georgia, 'Times New Roman', serif" font-size="29" font-weight="700" letter-spacing="1" fill="#f0dcd4">APPLICATIONS</text>
+<text x="471" y="175" font-family="Consolas, 'Liberation Mono', monospace" font-size="16" fill="#cb9699">INTERFACES &amp; DATA</text>
+<text x="471" y="211" font-family="Consolas, 'Liberation Mono', monospace" font-size="12.5" fill="#e1baba">REACT  /  ELECTRON  /  FASTAPI</text>
+<text x="471" y="253" font-family="Consolas, 'Liberation Mono', monospace" font-size="12.5" fill="#ad7e87">POSTGRESQL  /  SQLITE</text>
+<g transform="translate(772 144)"><circle r="45" fill="#201018" stroke="#9c4a58" stroke-width="1.3"/><ellipse cx="0" cy="-22" rx="32" ry="12" fill="#48212d" stroke="#e9b8b5" stroke-width="2.5"/><path d="M-32-22V18Q0 40 32 18V-22 M-32-1Q0 20 32-1M-32 12Q0 34 32 12" fill="none" stroke="#d26070" stroke-width="2.5"/></g>
+<rect x="870" y="72" width="391" height="210" rx="12" fill="#150d14" stroke="#793545" stroke-width="1.6"/>
+<rect x="878" y="80" width="375" height="194" rx="8" fill="none" stroke="#3a1927"/>
+<path d="M888 113H1101M888 231H1242" stroke="#743042"/>
+<text x="890" y="103" font-family="Consolas, 'Liberation Mono', monospace" font-size="16" letter-spacing="2" fill="#c56e7b">ORDER 03</text>
+<text x="892" y="148" font-family="Georgia, 'Times New Roman', serif" font-size="29" font-weight="700" letter-spacing="1" fill="#f0dcd4">SYSTEMS</text>
+<text x="892" y="175" font-family="Consolas, 'Liberation Mono', monospace" font-size="16" fill="#cb9699">DELIVERY &amp; OPERATIONS</text>
+<text x="892" y="211" font-family="Consolas, 'Liberation Mono', monospace" font-size="12.5" fill="#e1baba">LINUX  /  WINDOWS  /  DOCKER</text>
+<text x="892" y="253" font-family="Consolas, 'Liberation Mono', monospace" font-size="12.5" fill="#ad7e87">NGINX  /  GITHUB ACTIONS  /  GIT</text>
+<g transform="translate(1193 144)"><circle r="45" fill="#201018" stroke="#9c4a58" stroke-width="1.3"/><rect x="-34" y="-28" width="68" height="17" rx="4" fill="#3a1d29" stroke="#e6bcb8" stroke-width="2"/><rect x="-34" y="-3" width="68" height="17" rx="4" fill="#3a1d29" stroke="#e6bcb8" stroke-width="2"/><rect x="-34" y="22" width="68" height="17" rx="4" fill="#3a1d29" stroke="#e6bcb8" stroke-width="2"/><circle cx="-23" cy="-19" r="3" fill="#d76474"/><circle cx="-23" cy="6" r="3" fill="#d76474"/><circle cx="-23" cy="30" r="3" fill="#d76474"/></g>
+</svg>

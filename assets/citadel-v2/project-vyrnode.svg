@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="590" height="256" viewBox="0 0 590 256" role="img" aria-labelledby="title desc">
+<title id="title">VYRNODE — Project Folio 03</title>
+<desc id="desc">Cartão heráldico do projeto VYRNODE, área NETWORK / OBSERVABILITY, descrição ICMP MONITORING SYSTEM e marcador PUBLIC RELEASES.</desc>
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#08080b"/><stop offset=".52" stop-color="#1c0c14"/><stop offset="1" stop-color="#10090f"/></linearGradient>
+ <radialGradient id="glow"><stop stop-color="#e89a84" stop-opacity=".28"/><stop offset="1" stop-color="#e89a84" stop-opacity="0"/></radialGradient>
+ <pattern id="hatch" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M0 20L20 0" stroke="#efc1b9" stroke-opacity=".042"/></pattern>
+</defs>
+<rect x="2" y="2" width="586" height="252" rx="12" fill="url(#bg)" stroke="#6f303e" stroke-width="2"/>
+<rect x="12" y="12" width="566" height="232" rx="6" fill="url(#hatch)" stroke="#40202d"/>
+<rect x="16" y="16" width="6" height="224" rx="2" fill="#e89a84"/>
+<path d="M34 52H422M34 182H425M34 216H558" stroke="#7f3545" stroke-opacity=".7"/>
+<text x="36" y="38" font-family="Consolas, 'Liberation Mono', monospace" font-size="14" letter-spacing="1.1" fill="#e89a84">PROJECT FOLIO 03 / NETWORK / OBSERVABILITY</text>
+<text x="35" y="86" font-family="Georgia, 'Times New Roman', serif" font-size="32" font-weight="700" letter-spacing="1" fill="#f1dcd4">VYRNODE</text>
+<text x="35" y="119" font-family="Consolas, 'Liberation Mono', monospace" font-size="16" fill="#cfacaa">ICMP MONITORING SYSTEM</text>
+<text x="35" y="146" font-family="Consolas, 'Liberation Mono', monospace" font-size="14" fill="#b78085">CONTROL  /  VIEWER  /  NETWORK</text>
+<rect x="34" y="158" width="180" height="25" rx="12" fill="#301420" stroke="#e89a84" stroke-opacity=".62"/>
+<circle cx="49" cy="170.5" r="3" fill="#e89a84"/>
+<text x="59" y="175" font-family="Consolas, 'Liberation Mono', monospace" font-size="13" fill="#ecc6bf">PUBLIC RELEASES</text>
+<circle cx="480" cy="121" r="104" fill="url(#glow)"/>
+<circle cx="480" cy="121" r="69" fill="#100b12" stroke="#9e4353" stroke-width="2"/>
+<circle cx="480" cy="121" r="57" fill="none" stroke="#e89a84" stroke-opacity=".45" stroke-dasharray="2 7" stroke-width="2"/>
+<g transform="translate(480 121)"><circle r="34" stroke="#d5aea9" stroke-width="2.5" fill="none"/><circle r="21" stroke="#e89a84" stroke-width="2" fill="none"/><circle r="6" fill="#f4d9c8"/><path d="M0 0L22-25M-45 0H45M0-45V45" stroke="#e89a84" stroke-opacity=".75" stroke-width="2"/><circle cx="22" cy="-25" r="5" fill="#f4d9c8"/></g>
+<path d="M470 40l10-9 10 9M470 202l10 9 10-9" fill="none" stroke="#e89a84" stroke-opacity=".7" stroke-width="2"/>
+<text x="36" y="238" font-family="Consolas, 'Liberation Mono', monospace" font-size="13" fill="#d78c93">VIEW REPOSITORY</text>
+<path d="M177 232H193l-5-5m5 5-5 5" fill="none" stroke="#e89a84" stroke-width="2"/>
+<text x="558" y="238" text-anchor="end" font-family="Consolas, 'Liberation Mono', monospace" font-size="12" fill="#92636f">DRAGONBLACK18 / 03</text>
+</svg>

@@ -46,6 +46,10 @@
 
 <sub><code>RECORD 01 / THE OPERATOR</code></sub>
 
+<div align="center">
+  <img src="./assets/citadel-v2/chapter-01-identity.svg" width="100%" alt="Faixa gótica do capítulo I: identidade e engenharia, símbolo do operador" />
+</div>
+
 ```console
 ┌── (davi@citadel)-[~/identity]
 └─$ cat identity.conf
@@ -69,6 +73,10 @@ Meu trabalho conecta **código, aplicações desktop, APIs, serviços, bancos de
 ## ✠ CAPÍTULO II — `systemctl list-units --type=service`
 
 <sub><code>RECORD 02 / THE FOUR ORDERS</code></sub>
+
+<div align="center">
+  <img src="./assets/citadel-v2/chapter-02-orders.svg" width="100%" alt="Faixa gótica do capítulo II: software, automação, infraestrutura e segurança" />
+</div>
 
 ```text
 UNIT                             STATE        DOMAIN
@@ -104,6 +112,15 @@ secure-development.service       ACTIVE       Auth / RBAC / Integrity
 
 <sub><code>RECORD 03 / THE TECHNICAL ARMORY</code></sub>
 
+<div align="center">
+  <img src="./assets/citadel-v2/chapter-03-armory.svg" width="100%" alt="Faixa gótica do capítulo III: linguagens, aplicações e sistemas" />
+</div>
+
+<div align="center">
+  <img src="./assets/citadel-v2/armory-plates.svg" width="100%" alt="Armaria do engenheiro: três painéis com linguagens e automação, aplicações e dados, sistemas e entrega" />
+  <sub><code>THE ENGINEER'S ARMORY</code> · LANGUAGES / APPLICATIONS / SYSTEMS</sub>
+</div>
+
 **`01 / LANGUAGES & AUTOMATION`**
 
 ![Python](https://img.shields.io/badge/Python-160b10?style=flat-square&logo=python&logoColor=cf5060)
@@ -136,6 +153,10 @@ secure-development.service       ACTIVE       Auth / RBAC / Integrity
 
 <sub><code>RECORD 04 / WORKS FROM THE FORGE</code></sub>
 
+<div align="center">
+  <img src="./assets/citadel-v2/chapter-04-projects.svg" width="100%" alt="Faixa gótica do capítulo IV: obras e projetos de engenharia" />
+</div>
+
 ```text
 /home/davi/projects/
 ├── DeployCraft/           # deployments offline
@@ -145,6 +166,42 @@ secure-development.service       ACTIVE       Auth / RBAC / Integrity
 ├── Atlas-IA/              # assistente local de desktop
 └── 2iad/                  # plataforma para incubadora
 ```
+
+<a name="codex-gallery"></a>
+
+### ✠ GALERIA DA FORJA — `ls ./project-folios/`
+
+Os seis fólios abaixo são portais visuais para os repositórios já apresentados. Clique em uma carta para abrir o projeto; as descrições e a tabela técnica original permanecem logo abaixo.
+
+<table>
+  <tr>
+    <td width="50%" align="center" valign="top">
+      <a href="https://github.com/DragonBlack18/DeployCraft"><img src="./assets/citadel-v2/project-deploycraft.svg" width="100%" alt="DeployCraft: folio de instalador offline em Go, catálogo e integridade, projeto em laboratório" /></a>
+    </td>
+    <td width="50%" align="center" valign="top">
+      <a href="https://github.com/DragonBlack18/OmniForge-Studio"><img src="./assets/citadel-v2/project-omniforge.svg" width="100%" alt="OmniForge Studio: folio experimental de workspace desktop, código e automação visual" /></a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center" valign="top">
+      <a href="https://github.com/DragonBlack18/vyrnode-releases"><img src="./assets/citadel-v2/project-vyrnode.svg" width="100%" alt="VYRNODE: folio de monitoramento ICMP, Control e Viewer, repositório público de releases" /></a>
+    </td>
+    <td width="50%" align="center" valign="top">
+      <a href="https://github.com/DragonBlack18/sistema-de-academia"><img src="./assets/citadel-v2/project-vitality-gym.svg" width="100%" alt="Vitality Gym: folio de gestão de academia com controle de acesso e módulos" /></a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center" valign="top">
+      <a href="https://github.com/DragonBlack18/Atlas-IA"><img src="./assets/citadel-v2/project-atlas-ai.svg" width="100%" alt="Atlas AI: folio de assistente local desktop com voz e automação" /></a>
+    </td>
+    <td width="50%" align="center" valign="top">
+      <a href="https://github.com/DragonBlack18/2iad"><img src="./assets/citadel-v2/project-2iad.svg" width="100%" alt="2IAD: folio de plataforma para incubadoras, startups e editais" /></a>
+    </td>
+  </tr>
+</table>
+
+<p align="center"><sub><code>SELECT A FOLIO / OPEN THE REPOSITORY</code> · Marcadores visuais de escopo, não indicadores de CI ou disponibilidade em tempo real.</sub></p>
+
 
 | Projeto | Engenharia aplicada | Acesso |
 | :--- | :--- | :--- |
@@ -165,6 +222,10 @@ secure-development.service       ACTIVE       Auth / RBAC / Integrity
 ## ✠ CAPÍTULO V — `cat /etc/ordo/engineering-oath.conf`
 
 <sub><code>RECORD 05 / THE ENGINEERING OATH</code></sub>
+
+<div align="center">
+  <img src="./assets/citadel-v2/chapter-05-oath.svg" width="100%" alt="Faixa gótica do capítulo V: princípios de design, segurança e operação" />
+</div>
 
 ```ini
 [design]
@@ -207,6 +268,10 @@ A segurança é um campo que estudo e aplico nos meus projetos, especialmente em
 
 <sub><code>RECORD 06 / THE CRIMSON ARCHIVE</code></sub>
 
+<div align="center">
+  <img src="./assets/citadel-v2/chapter-06-archive.svg" width="100%" alt="Faixa gótica do arquivo da Cidadela: animações preservadas" />
+</div>
+
 A cena <strong>The Cathedral Watch</strong> continua em destaque no capítulo IV. As outras animações originais ficam neste arquivo expansível, preservadas sem sobrecarregar a leitura do perfil.
 
 <details>
@@ -230,6 +295,10 @@ A cena <strong>The Cathedral Watch</strong> continua em destaque no capítulo IV
 </details>
 
 <img src="./assets/templar-divider.svg" width="100%" alt="Divisória heráldica templária" />
+
+<div align="center">
+  <img src="./assets/citadel-v2/footer-signet.svg" width="100%" alt="Selo final da Citadel Edition V2: escudo carmesim e lema Fide, Disciplina, Vigilantia" />
+</div>
 
 <div align="center">
 

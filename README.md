@@ -64,8 +64,8 @@ secure-development.service       ACTIVE       Auth / RBAC / Integrity
 | **IV · Segurança** | Autenticação, permissões, menor privilégio, validação e proteção de credenciais. |
 
 <div align="center">
-  <img src="./assets/crimson-eclipse.gif" width="100%" alt="Animação original: eclipse vermelho, guerreiro e brasas sobre paisagem sombria" />
-  <sub><code>CHAPTER DIVIDER // THE CRIMSON ECLIPSE</code></sub>
+  <img src="./assets/iron-vow.gif" width="100%" alt="Animação original: grande espada fincada no solo, lua crescente e cinzas ao vento" />
+  <sub><code>CHAPTER DIVIDER // THE IRON VOW</code></sub>
 </div>
 
 ## ✠ CAPÍTULO III — `ls -la /opt/armory`
@@ -160,8 +160,8 @@ As animações antigas permanecem disponíveis. A nova cena <strong>The Cathedra
 <summary><b>✠ Abrir o arquivo de wallpapers carmesins</b></summary>
 
 <p align="center">
-  <img src="./assets/iron-vow.gif" width="100%" alt="Animação original: grande espada fincada no solo, lua crescente e cinzas ao vento" />
-  <sub>THE IRON VOW / STEEL · ASH · PERSISTENCE</sub>
+  <img src="./assets/crimson-eclipse.gif" width="100%" alt="Animação original: eclipse vermelho, guerreiro e brasas sobre paisagem sombria" />
+  <sub>THE CRIMSON ECLIPSE / SHADOW · EMBERS · PERSISTENCE</sub>
 </p>
 
 <p align="center">

@@ -143,6 +143,25 @@ def audit_case(browser, width: int, scheme: str) -> dict:
             result["errors"].append("Chapter navigation link has no in-page destination")
             print("  NAVIGATION DEBUG:", json.dumps(metrics["navigation"], ensure_ascii=False), flush=True)
             print("  ANCHOR MARKERS:", json.dumps(metrics["anchorMarkers"], ensure_ascii=False), flush=True)
+        # Functional navigation test: the raw fragment must actually move the viewport.
+        # GitHub namespaces explicit Markdown anchors as "user-content-*".
+        try:
+            page.locator('.markdown-body a[href="#codex-projects"]').first.click(timeout=10000)
+            page.wait_for_timeout(500)
+            nav_motion = page.evaluate("""() => {
+                const target = document.querySelector('a[name="user-content-codex-projects"]');
+                return {
+                    scrollY: Math.round(window.scrollY),
+                    targetTop: target ? Math.round(target.getBoundingClientRect().top) : null,
+                    hash: window.location.hash
+                };
+            }""")
+            result["metrics"]["navigationClick"] = nav_motion
+            if nav_motion["targetTop"] is None or abs(nav_motion["targetTop"]) > 700 or nav_motion["scrollY"] < 300:
+                result["errors"].append("Clicking PROJECTS did not scroll to its chapter")
+                print("  CLICK DEBUG:", nav_motion, flush=True)
+        except Exception as exc:
+            result["errors"].append(f"Could not test PROJECTS navigation click: {type(exc).__name__}: {exc}")
         broken = [img["src"] for img in metrics["imageState"] if img["complete"] and img["naturalWidth"] == 0]
         unloaded = [img["src"] for img in metrics["imageState"] if not img["complete"]]
         if broken:
